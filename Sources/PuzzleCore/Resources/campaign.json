@@ -1,0 +1,4399 @@
+{
+  "generatorVersion" : 1,
+  "levels" : [
+    {
+      "containers" : [
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          0
+        ],
+        [
+
+        ]
+      ],
+      "id" : 1,
+      "metrics" : {
+        "complexity" : 18,
+        "score" : 29,
+        "solutionLength" : 3,
+        "solverEffort" : 3
+      },
+      "name" : "First Light",
+      "recipe" : {
+        "colors" : 2,
+        "emptyContainers" : 1,
+        "seed" : 1,
+        "version" : 0
+      },
+      "tier" : "beginner"
+    },
+    {
+      "containers" : [
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          0,
+          0
+        ],
+        [
+
+        ],
+        [
+
+        ]
+      ],
+      "id" : 2,
+      "metrics" : {
+        "complexity" : 12,
+        "score" : 33,
+        "solutionLength" : 6,
+        "solverEffort" : 7
+      },
+      "name" : "Tidal Pools",
+      "recipe" : {
+        "colors" : 2,
+        "emptyContainers" : 2,
+        "seed" : 2,
+        "version" : 0
+      },
+      "tier" : "beginner"
+    },
+    {
+      "containers" : [
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          1
+        ],
+        [
+
+        ],
+        [
+
+        ]
+      ],
+      "id" : 3,
+      "metrics" : {
+        "complexity" : 14,
+        "score" : 34,
+        "solutionLength" : 6,
+        "solverEffort" : 6
+      },
+      "name" : "Coral Meadow",
+      "recipe" : {
+        "colors" : 2,
+        "emptyContainers" : 2,
+        "seed" : 2200007,
+        "version" : 1
+      },
+      "tier" : "beginner"
+    },
+    {
+      "containers" : [
+        [
+          1,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1,
+          0
+        ],
+        [
+
+        ],
+        [
+
+        ]
+      ],
+      "id" : 4,
+      "metrics" : {
+        "complexity" : 16,
+        "score" : 36,
+        "solutionLength" : 6,
+        "solverEffort" : 6
+      },
+      "name" : "Sunlit Meadow",
+      "recipe" : {
+        "colors" : 2,
+        "emptyContainers" : 2,
+        "seed" : 2200000,
+        "version" : 1
+      },
+      "tier" : "beginner"
+    },
+    {
+      "containers" : [
+        [
+          1,
+          1,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+
+        ]
+      ],
+      "id" : 5,
+      "metrics" : {
+        "complexity" : 20,
+        "score" : 37,
+        "solutionLength" : 5,
+        "solverEffort" : 6
+      },
+      "name" : "Clover Meadow",
+      "recipe" : {
+        "colors" : 2,
+        "emptyContainers" : 1,
+        "seed" : 2100049,
+        "version" : 1
+      },
+      "tier" : "beginner"
+    },
+    {
+      "containers" : [
+        [
+          1,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1,
+          0
+        ],
+        [
+
+        ]
+      ],
+      "id" : 6,
+      "metrics" : {
+        "complexity" : 20,
+        "score" : 40,
+        "solutionLength" : 6,
+        "solverEffort" : 6
+      },
+      "name" : "Amber Meadow",
+      "recipe" : {
+        "colors" : 2,
+        "emptyContainers" : 1,
+        "seed" : 2100002,
+        "version" : 1
+      },
+      "tier" : "beginner"
+    },
+    {
+      "containers" : [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+
+        ]
+      ],
+      "id" : 7,
+      "metrics" : {
+        "complexity" : 18,
+        "score" : 42,
+        "solutionLength" : 7,
+        "solverEffort" : 7
+      },
+      "name" : "Bluebell Meadow",
+      "recipe" : {
+        "colors" : 2,
+        "emptyContainers" : 1,
+        "seed" : 2100010,
+        "version" : 1
+      },
+      "tier" : "beginner"
+    },
+    {
+      "containers" : [
+        [
+          1,
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+
+        ]
+      ],
+      "id" : 8,
+      "metrics" : {
+        "complexity" : 20,
+        "score" : 44,
+        "solutionLength" : 7,
+        "solverEffort" : 7
+      },
+      "name" : "Pebble Meadow",
+      "recipe" : {
+        "colors" : 2,
+        "emptyContainers" : 1,
+        "seed" : 2100005,
+        "version" : 1
+      },
+      "tier" : "beginner"
+    },
+    {
+      "containers" : [
+        [
+          1,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          1
+        ],
+        [
+
+        ],
+        [
+
+        ]
+      ],
+      "id" : 9,
+      "metrics" : {
+        "complexity" : 18,
+        "score" : 45,
+        "solutionLength" : 8,
+        "solverEffort" : 10
+      },
+      "name" : "Fern Meadow",
+      "recipe" : {
+        "colors" : 2,
+        "emptyContainers" : 2,
+        "seed" : 2200021,
+        "version" : 1
+      },
+      "tier" : "beginner"
+    },
+    {
+      "containers" : [
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          2,
+          2,
+          2,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          2
+        ],
+        [
+
+        ],
+        [
+
+        ]
+      ],
+      "id" : 10,
+      "metrics" : {
+        "complexity" : 22,
+        "score" : 46,
+        "solutionLength" : 7,
+        "solverEffort" : 7
+      },
+      "name" : "Jade Meadow",
+      "recipe" : {
+        "colors" : 3,
+        "emptyContainers" : 2,
+        "seed" : 3200014,
+        "version" : 1
+      },
+      "tier" : "beginner"
+    },
+    {
+      "containers" : [
+        [
+          2,
+          2,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          2
+        ],
+        [
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+
+        ],
+        [
+
+        ]
+      ],
+      "id" : 11,
+      "metrics" : {
+        "complexity" : 20,
+        "score" : 47,
+        "solutionLength" : 8,
+        "solverEffort" : 8
+      },
+      "name" : "Orchid Meadow",
+      "recipe" : {
+        "colors" : 3,
+        "emptyContainers" : 2,
+        "seed" : 3200072,
+        "version" : 1
+      },
+      "tier" : "beginner"
+    },
+    {
+      "containers" : [
+        [
+          0,
+          0,
+          2,
+          2
+        ],
+        [
+          1,
+          2,
+          0,
+          0
+        ],
+        [
+          2,
+          1,
+          1,
+          1
+        ],
+        [
+
+        ],
+        [
+
+        ]
+      ],
+      "id" : 12,
+      "metrics" : {
+        "complexity" : 20,
+        "score" : 50,
+        "solutionLength" : 9,
+        "solverEffort" : 9
+      },
+      "name" : "Moss Meadow",
+      "recipe" : {
+        "colors" : 3,
+        "emptyContainers" : 2,
+        "seed" : 3200003,
+        "version" : 1
+      },
+      "tier" : "beginner"
+    },
+    {
+      "containers" : [
+        [
+          1,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          1,
+          0
+        ],
+        [
+
+        ]
+      ],
+      "id" : 13,
+      "metrics" : {
+        "complexity" : 24,
+        "score" : 51,
+        "solutionLength" : 8,
+        "solverEffort" : 8
+      },
+      "name" : "Lotus Meadow",
+      "recipe" : {
+        "colors" : 2,
+        "emptyContainers" : 1,
+        "seed" : 2100008,
+        "version" : 1
+      },
+      "tier" : "beginner"
+    },
+    {
+      "containers" : [
+        [
+          2,
+          2,
+          2,
+          1
+        ],
+        [
+          1,
+          2,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+
+        ],
+        [
+
+        ]
+      ],
+      "id" : 14,
+      "metrics" : {
+        "complexity" : 24,
+        "score" : 51,
+        "solutionLength" : 8,
+        "solverEffort" : 13
+      },
+      "name" : "Saffron Meadow",
+      "recipe" : {
+        "colors" : 3,
+        "emptyContainers" : 2,
+        "seed" : 3200098,
+        "version" : 1
+      },
+      "tier" : "beginner"
+    },
+    {
+      "containers" : [
+        [
+          2,
+          2,
+          1,
+          1
+        ],
+        [
+          2,
+          2,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          1
+        ],
+        [
+
+        ],
+        [
+
+        ]
+      ],
+      "id" : 15,
+      "metrics" : {
+        "complexity" : 20,
+        "score" : 53,
+        "solutionLength" : 10,
+        "solverEffort" : 10
+      },
+      "name" : "Silver Meadow",
+      "recipe" : {
+        "colors" : 3,
+        "emptyContainers" : 2,
+        "seed" : 3200004,
+        "version" : 1
+      },
+      "tier" : "beginner"
+    },
+    {
+      "containers" : [
+        [
+          1,
+          1,
+          2,
+          2
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          2,
+          0,
+          1,
+          2
+        ],
+        [
+
+        ],
+        [
+
+        ]
+      ],
+      "id" : 16,
+      "metrics" : {
+        "complexity" : 24,
+        "score" : 54,
+        "solutionLength" : 9,
+        "solverEffort" : 12
+      },
+      "name" : "Rose Meadow",
+      "recipe" : {
+        "colors" : 3,
+        "emptyContainers" : 2,
+        "seed" : 3200028,
+        "version" : 1
+      },
+      "tier" : "beginner"
+    },
+    {
+      "containers" : [
+        [
+          0,
+          0,
+          1,
+          2
+        ],
+        [
+          1,
+          1,
+          2,
+          0
+        ],
+        [
+          2,
+          2,
+          0,
+          1
+        ],
+        [
+
+        ],
+        [
+
+        ]
+      ],
+      "id" : 17,
+      "metrics" : {
+        "complexity" : 24,
+        "score" : 55,
+        "solutionLength" : 9,
+        "solverEffort" : 21
+      },
+      "name" : "Mint Meadow",
+      "recipe" : {
+        "colors" : 3,
+        "emptyContainers" : 2,
+        "seed" : 3,
+        "version" : 0
+      },
+      "tier" : "beginner"
+    },
+    {
+      "containers" : [
+        [
+          1,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          2,
+          1
+        ],
+        [
+          2,
+          2,
+          1,
+          0
+        ],
+        [
+
+        ]
+      ],
+      "id" : 18,
+      "metrics" : {
+        "complexity" : 28,
+        "score" : 55,
+        "solutionLength" : 8,
+        "solverEffort" : 8
+      },
+      "name" : "Iris Meadow",
+      "recipe" : {
+        "colors" : 3,
+        "emptyContainers" : 1,
+        "seed" : 3100067,
+        "version" : 1
+      },
+      "tier" : "beginner"
+    },
+    {
+      "containers" : [
+        [
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          2,
+          1
+        ],
+        [
+          0,
+          2,
+          2,
+          1
+        ],
+        [
+
+        ],
+        [
+
+        ]
+      ],
+      "id" : 19,
+      "metrics" : {
+        "complexity" : 22,
+        "score" : 55,
+        "solutionLength" : 10,
+        "solverEffort" : 12
+      },
+      "name" : "Pearl Meadow",
+      "recipe" : {
+        "colors" : 3,
+        "emptyContainers" : 2,
+        "seed" : 3200019,
+        "version" : 1
+      },
+      "tier" : "beginner"
+    },
+    {
+      "containers" : [
+        [
+          0,
+          2,
+          2,
+          2
+        ],
+        [
+          1,
+          2,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1,
+          1
+        ],
+        [
+
+        ],
+        [
+
+        ]
+      ],
+      "id" : 20,
+      "metrics" : {
+        "complexity" : 22,
+        "score" : 55,
+        "solutionLength" : 10,
+        "solverEffort" : 10
+      },
+      "name" : "Aurora Meadow",
+      "recipe" : {
+        "colors" : 3,
+        "emptyContainers" : 2,
+        "seed" : 3200094,
+        "version" : 1
+      },
+      "tier" : "beginner"
+    },
+    {
+      "containers" : [
+        [
+          1,
+          0,
+          1,
+          0
+        ],
+        [
+          2,
+          2,
+          2,
+          0
+        ],
+        [
+          1,
+          2,
+          1,
+          0
+        ],
+        [
+
+        ],
+        [
+
+        ]
+      ],
+      "id" : 21,
+      "metrics" : {
+        "complexity" : 26,
+        "score" : 56,
+        "solutionLength" : 9,
+        "solverEffort" : 13
+      },
+      "name" : "Dewdrop Cove",
+      "recipe" : {
+        "colors" : 3,
+        "emptyContainers" : 2,
+        "seed" : 3200006,
+        "version" : 1
+      },
+      "tier" : "easy"
+    },
+    {
+      "containers" : [
+        [
+          2,
+          2,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          2
+        ],
+        [
+          1,
+          2,
+          1,
+          0
+        ],
+        [
+
+        ],
+        [
+
+        ]
+      ],
+      "id" : 22,
+      "metrics" : {
+        "complexity" : 26,
+        "score" : 56,
+        "solutionLength" : 9,
+        "solverEffort" : 11
+      },
+      "name" : "Willow Cove",
+      "recipe" : {
+        "colors" : 3,
+        "emptyContainers" : 2,
+        "seed" : 3200099,
+        "version" : 1
+      },
+      "tier" : "easy"
+    },
+    {
+      "containers" : [
+        [
+          0,
+          2,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          0,
+          2
+        ],
+        [
+          2,
+          2,
+          1,
+          0
+        ],
+        [
+
+        ],
+        [
+
+        ]
+      ],
+      "id" : 23,
+      "metrics" : {
+        "complexity" : 26,
+        "score" : 57,
+        "solutionLength" : 9,
+        "solverEffort" : 16
+      },
+      "name" : "Coral Cove",
+      "recipe" : {
+        "colors" : 3,
+        "emptyContainers" : 2,
+        "seed" : 3200001,
+        "version" : 1
+      },
+      "tier" : "easy"
+    },
+    {
+      "containers" : [
+        [
+          2,
+          0,
+          1,
+          2
+        ],
+        [
+          2,
+          2,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+
+        ],
+        [
+
+        ]
+      ],
+      "id" : 24,
+      "metrics" : {
+        "complexity" : 24,
+        "score" : 57,
+        "solutionLength" : 10,
+        "solverEffort" : 10
+      },
+      "name" : "Sunlit Cove",
+      "recipe" : {
+        "colors" : 3,
+        "emptyContainers" : 2,
+        "seed" : 3200057,
+        "version" : 1
+      },
+      "tier" : "easy"
+    },
+    {
+      "containers" : [
+        [
+          2,
+          2,
+          0,
+          1
+        ],
+        [
+          2,
+          2,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          1
+        ],
+        [
+
+        ],
+        [
+
+        ]
+      ],
+      "id" : 25,
+      "metrics" : {
+        "complexity" : 24,
+        "score" : 57,
+        "solutionLength" : 10,
+        "solverEffort" : 10
+      },
+      "name" : "Clover Cove",
+      "recipe" : {
+        "colors" : 3,
+        "emptyContainers" : 2,
+        "seed" : 3200074,
+        "version" : 1
+      },
+      "tier" : "easy"
+    },
+    {
+      "containers" : [
+        [
+          2,
+          2,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          2,
+          2
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+
+        ]
+      ],
+      "id" : 26,
+      "metrics" : {
+        "complexity" : 28,
+        "score" : 58,
+        "solutionLength" : 9,
+        "solverEffort" : 12
+      },
+      "name" : "Amber Cove",
+      "recipe" : {
+        "colors" : 3,
+        "emptyContainers" : 1,
+        "seed" : 3100018,
+        "version" : 1
+      },
+      "tier" : "easy"
+    },
+    {
+      "containers" : [
+        [
+          0,
+          2,
+          0,
+          1
+        ],
+        [
+          2,
+          0,
+          1,
+          0
+        ],
+        [
+          2,
+          2,
+          1,
+          1
+        ],
+        [
+
+        ],
+        [
+
+        ]
+      ],
+      "id" : 27,
+      "metrics" : {
+        "complexity" : 26,
+        "score" : 59,
+        "solutionLength" : 10,
+        "solverEffort" : 12
+      },
+      "name" : "Bluebell Cove",
+      "recipe" : {
+        "colors" : 3,
+        "emptyContainers" : 2,
+        "seed" : 3200012,
+        "version" : 1
+      },
+      "tier" : "easy"
+    },
+    {
+      "containers" : [
+        [
+          0,
+          1,
+          0,
+          2
+        ],
+        [
+          1,
+          2,
+          2,
+          1
+        ],
+        [
+          0,
+          0,
+          2,
+          1
+        ],
+        [
+
+        ],
+        [
+
+        ]
+      ],
+      "id" : 28,
+      "metrics" : {
+        "complexity" : 26,
+        "score" : 59,
+        "solutionLength" : 10,
+        "solverEffort" : 11
+      },
+      "name" : "Pebble Cove",
+      "recipe" : {
+        "colors" : 3,
+        "emptyContainers" : 2,
+        "seed" : 3200049,
+        "version" : 1
+      },
+      "tier" : "easy"
+    },
+    {
+      "containers" : [
+        [
+          0,
+          2,
+          2,
+          1
+        ],
+        [
+          1,
+          2,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          2
+        ],
+        [
+
+        ],
+        [
+
+        ]
+      ],
+      "id" : 29,
+      "metrics" : {
+        "complexity" : 26,
+        "score" : 59,
+        "solutionLength" : 10,
+        "solverEffort" : 13
+      },
+      "name" : "Fern Cove",
+      "recipe" : {
+        "colors" : 3,
+        "emptyContainers" : 2,
+        "seed" : 3200085,
+        "version" : 1
+      },
+      "tier" : "easy"
+    },
+    {
+      "containers" : [
+        [
+          2,
+          1,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          2,
+          0
+        ],
+        [
+          1,
+          1,
+          1,
+          2
+        ],
+        [
+
+        ]
+      ],
+      "id" : 30,
+      "metrics" : {
+        "complexity" : 30,
+        "score" : 60,
+        "solutionLength" : 9,
+        "solverEffort" : 11
+      },
+      "name" : "Jade Cove",
+      "recipe" : {
+        "colors" : 3,
+        "emptyContainers" : 1,
+        "seed" : 3100068,
+        "version" : 1
+      },
+      "tier" : "easy"
+    },
+    {
+      "containers" : [
+        [
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          2,
+          1
+        ],
+        [
+          0,
+          2,
+          0,
+          2
+        ],
+        [
+
+        ],
+        [
+
+        ]
+      ],
+      "id" : 31,
+      "metrics" : {
+        "complexity" : 24,
+        "score" : 60,
+        "solutionLength" : 11,
+        "solverEffort" : 11
+      },
+      "name" : "Orchid Cove",
+      "recipe" : {
+        "colors" : 3,
+        "emptyContainers" : 2,
+        "seed" : 3200016,
+        "version" : 1
+      },
+      "tier" : "easy"
+    },
+    {
+      "containers" : [
+        [
+          2,
+          0,
+          0,
+          1
+        ],
+        [
+          2,
+          1,
+          1,
+          0
+        ],
+        [
+          0,
+          2,
+          2,
+          1
+        ],
+        [
+
+        ],
+        [
+
+        ]
+      ],
+      "id" : 32,
+      "metrics" : {
+        "complexity" : 24,
+        "score" : 60,
+        "solutionLength" : 11,
+        "solverEffort" : 12
+      },
+      "name" : "Moss Cove",
+      "recipe" : {
+        "colors" : 3,
+        "emptyContainers" : 2,
+        "seed" : 3200086,
+        "version" : 1
+      },
+      "tier" : "easy"
+    },
+    {
+      "containers" : [
+        [
+          1,
+          2,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          2,
+          0
+        ],
+        [
+          2,
+          2,
+          0,
+          1
+        ],
+        [
+
+        ],
+        [
+
+        ]
+      ],
+      "id" : 33,
+      "metrics" : {
+        "complexity" : 28,
+        "score" : 61,
+        "solutionLength" : 10,
+        "solverEffort" : 12
+      },
+      "name" : "Lotus Cove",
+      "recipe" : {
+        "colors" : 3,
+        "emptyContainers" : 2,
+        "seed" : 3200070,
+        "version" : 1
+      },
+      "tier" : "easy"
+    },
+    {
+      "containers" : [
+        [
+          1,
+          1,
+          0,
+          2
+        ],
+        [
+          0,
+          0,
+          2,
+          0
+        ],
+        [
+          1,
+          2,
+          1,
+          2
+        ],
+        [
+
+        ]
+      ],
+      "id" : 34,
+      "metrics" : {
+        "complexity" : 32,
+        "score" : 62,
+        "solutionLength" : 9,
+        "solverEffort" : 10
+      },
+      "name" : "Saffron Cove",
+      "recipe" : {
+        "colors" : 3,
+        "emptyContainers" : 1,
+        "seed" : 3100076,
+        "version" : 1
+      },
+      "tier" : "easy"
+    },
+    {
+      "containers" : [
+        [
+          2,
+          1,
+          2,
+          1
+        ],
+        [
+          1,
+          2,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          1
+        ],
+        [
+
+        ],
+        [
+
+        ]
+      ],
+      "id" : 35,
+      "metrics" : {
+        "complexity" : 26,
+        "score" : 62,
+        "solutionLength" : 11,
+        "solverEffort" : 11
+      },
+      "name" : "Silver Cove",
+      "recipe" : {
+        "colors" : 3,
+        "emptyContainers" : 2,
+        "seed" : 3200032,
+        "version" : 1
+      },
+      "tier" : "easy"
+    },
+    {
+      "containers" : [
+        [
+          0,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          1,
+          2,
+          2
+        ],
+        [
+          1,
+          2,
+          1,
+          1
+        ],
+        [
+
+        ],
+        [
+
+        ]
+      ],
+      "id" : 36,
+      "metrics" : {
+        "complexity" : 24,
+        "score" : 62,
+        "solutionLength" : 11,
+        "solverEffort" : 34
+      },
+      "name" : "Rose Cove",
+      "recipe" : {
+        "colors" : 3,
+        "emptyContainers" : 2,
+        "seed" : 3200053,
+        "version" : 1
+      },
+      "tier" : "easy"
+    },
+    {
+      "containers" : [
+        [
+          1,
+          1,
+          2,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          2
+        ],
+        [
+          2,
+          0,
+          0,
+          2
+        ],
+        [
+
+        ]
+      ],
+      "id" : 37,
+      "metrics" : {
+        "complexity" : 30,
+        "score" : 63,
+        "solutionLength" : 10,
+        "solverEffort" : 12
+      },
+      "name" : "Moonlit Cove",
+      "recipe" : {
+        "colors" : 3,
+        "emptyContainers" : 1,
+        "seed" : 3100057,
+        "version" : 1
+      },
+      "tier" : "easy"
+    },
+    {
+      "containers" : [
+        [
+          1,
+          0,
+          2,
+          0
+        ],
+        [
+          1,
+          0,
+          2,
+          2
+        ],
+        [
+          0,
+          1,
+          1,
+          2
+        ],
+        [
+
+        ],
+        [
+
+        ]
+      ],
+      "id" : 38,
+      "metrics" : {
+        "complexity" : 26,
+        "score" : 63,
+        "solutionLength" : 11,
+        "solverEffort" : 15
+      },
+      "name" : "Iris Cove",
+      "recipe" : {
+        "colors" : 3,
+        "emptyContainers" : 2,
+        "seed" : 3200069,
+        "version" : 1
+      },
+      "tier" : "easy"
+    },
+    {
+      "containers" : [
+        [
+          1,
+          0,
+          2,
+          2
+        ],
+        [
+          2,
+          0,
+          2,
+          1
+        ],
+        [
+          1,
+          0,
+          1,
+          0
+        ],
+        [
+
+        ],
+        [
+
+        ]
+      ],
+      "id" : 39,
+      "metrics" : {
+        "complexity" : 28,
+        "score" : 64,
+        "solutionLength" : 11,
+        "solverEffort" : 11
+      },
+      "name" : "Pearl Cove",
+      "recipe" : {
+        "colors" : 3,
+        "emptyContainers" : 2,
+        "seed" : 3200008,
+        "version" : 1
+      },
+      "tier" : "easy"
+    },
+    {
+      "containers" : [
+        [
+          1,
+          0,
+          2,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          2
+        ],
+        [
+          0,
+          2,
+          0,
+          2
+        ],
+        [
+
+        ],
+        [
+
+        ]
+      ],
+      "id" : 40,
+      "metrics" : {
+        "complexity" : 28,
+        "score" : 64,
+        "solutionLength" : 11,
+        "solverEffort" : 14
+      },
+      "name" : "Aurora Cove",
+      "recipe" : {
+        "colors" : 3,
+        "emptyContainers" : 2,
+        "seed" : 3200061,
+        "version" : 1
+      },
+      "tier" : "easy"
+    },
+    {
+      "containers" : [
+        [
+          2,
+          1,
+          0,
+          2
+        ],
+        [
+          1,
+          0,
+          2,
+          0
+        ],
+        [
+          2,
+          1,
+          1,
+          0
+        ],
+        [
+
+        ],
+        [
+
+        ]
+      ],
+      "id" : 41,
+      "metrics" : {
+        "complexity" : 28,
+        "score" : 64,
+        "solutionLength" : 11,
+        "solverEffort" : 14
+      },
+      "name" : "Dewdrop Grove",
+      "recipe" : {
+        "colors" : 3,
+        "emptyContainers" : 2,
+        "seed" : 3200095,
+        "version" : 1
+      },
+      "tier" : "medium"
+    },
+    {
+      "containers" : [
+        [
+          0,
+          0,
+          2,
+          1
+        ],
+        [
+          1,
+          2,
+          2,
+          1
+        ],
+        [
+          2,
+          0,
+          1,
+          0
+        ],
+        [
+
+        ]
+      ],
+      "id" : 42,
+      "metrics" : {
+        "complexity" : 32,
+        "score" : 65,
+        "solutionLength" : 10,
+        "solverEffort" : 12
+      },
+      "name" : "Willow Grove",
+      "recipe" : {
+        "colors" : 3,
+        "emptyContainers" : 1,
+        "seed" : 3100078,
+        "version" : 1
+      },
+      "tier" : "medium"
+    },
+    {
+      "containers" : [
+        [
+          0,
+          1,
+          2,
+          2
+        ],
+        [
+          1,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          2,
+          1,
+          2
+        ],
+        [
+
+        ],
+        [
+
+        ]
+      ],
+      "id" : 43,
+      "metrics" : {
+        "complexity" : 28,
+        "score" : 65,
+        "solutionLength" : 11,
+        "solverEffort" : 15
+      },
+      "name" : "Coral Grove",
+      "recipe" : {
+        "colors" : 3,
+        "emptyContainers" : 2,
+        "seed" : 3200059,
+        "version" : 1
+      },
+      "tier" : "medium"
+    },
+    {
+      "containers" : [
+        [
+          2,
+          2,
+          0,
+          2
+        ],
+        [
+          1,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          0,
+          2
+        ],
+        [
+
+        ]
+      ],
+      "id" : 44,
+      "metrics" : {
+        "complexity" : 30,
+        "score" : 66,
+        "solutionLength" : 11,
+        "solverEffort" : 13
+      },
+      "name" : "Sunlit Grove",
+      "recipe" : {
+        "colors" : 3,
+        "emptyContainers" : 1,
+        "seed" : 3100043,
+        "version" : 1
+      },
+      "tier" : "medium"
+    },
+    {
+      "containers" : [
+        [
+          2,
+          1,
+          2,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          1
+        ],
+        [
+          2,
+          2,
+          0,
+          1
+        ],
+        [
+
+        ]
+      ],
+      "id" : 45,
+      "metrics" : {
+        "complexity" : 34,
+        "score" : 67,
+        "solutionLength" : 10,
+        "solverEffort" : 13
+      },
+      "name" : "Clover Grove",
+      "recipe" : {
+        "colors" : 3,
+        "emptyContainers" : 1,
+        "seed" : 3100003,
+        "version" : 1
+      },
+      "tier" : "medium"
+    },
+    {
+      "containers" : [
+        [
+          1,
+          2,
+          2,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          2,
+          1
+        ],
+        [
+
+        ]
+      ],
+      "id" : 46,
+      "metrics" : {
+        "complexity" : 32,
+        "score" : 68,
+        "solutionLength" : 11,
+        "solverEffort" : 11
+      },
+      "name" : "Amber Grove",
+      "recipe" : {
+        "colors" : 3,
+        "emptyContainers" : 1,
+        "seed" : 3100069,
+        "version" : 1
+      },
+      "tier" : "medium"
+    },
+    {
+      "containers" : [
+        [
+          3,
+          0,
+          1,
+          2
+        ],
+        [
+          3,
+          1,
+          0,
+          3
+        ],
+        [
+          2,
+          2,
+          2,
+          3
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+
+        ],
+        [
+
+        ]
+      ],
+      "id" : 47,
+      "metrics" : {
+        "complexity" : 32,
+        "score" : 68,
+        "solutionLength" : 11,
+        "solverEffort" : 11
+      },
+      "name" : "Bluebell Grove",
+      "recipe" : {
+        "colors" : 4,
+        "emptyContainers" : 2,
+        "seed" : 4200108,
+        "version" : 1
+      },
+      "tier" : "medium"
+    },
+    {
+      "containers" : [
+        [
+          1,
+          0,
+          2,
+          1
+        ],
+        [
+          2,
+          2,
+          1,
+          0
+        ],
+        [
+          1,
+          2,
+          0,
+          0
+        ],
+        [
+
+        ]
+      ],
+      "id" : 48,
+      "metrics" : {
+        "complexity" : 32,
+        "score" : 69,
+        "solutionLength" : 11,
+        "solverEffort" : 16
+      },
+      "name" : "Pebble Grove",
+      "recipe" : {
+        "colors" : 3,
+        "emptyContainers" : 1,
+        "seed" : 3100037,
+        "version" : 1
+      },
+      "tier" : "medium"
+    },
+    {
+      "containers" : [
+        [
+          1,
+          0,
+          0,
+          2
+        ],
+        [
+          2,
+          0,
+          2,
+          2
+        ],
+        [
+          1,
+          1,
+          0,
+          1
+        ],
+        [
+
+        ]
+      ],
+      "id" : 49,
+      "metrics" : {
+        "complexity" : 30,
+        "score" : 70,
+        "solutionLength" : 12,
+        "solverEffort" : 16
+      },
+      "name" : "Fern Grove",
+      "recipe" : {
+        "colors" : 3,
+        "emptyContainers" : 1,
+        "seed" : 3100010,
+        "version" : 1
+      },
+      "tier" : "medium"
+    },
+    {
+      "containers" : [
+        [
+          0,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          1,
+          2,
+          1
+        ],
+        [
+          2,
+          1,
+          2,
+          1
+        ],
+        [
+
+        ]
+      ],
+      "id" : 50,
+      "metrics" : {
+        "complexity" : 34,
+        "score" : 71,
+        "solutionLength" : 11,
+        "solverEffort" : 15
+      },
+      "name" : "Jade Grove",
+      "recipe" : {
+        "colors" : 3,
+        "emptyContainers" : 1,
+        "seed" : 3100013,
+        "version" : 1
+      },
+      "tier" : "medium"
+    },
+    {
+      "containers" : [
+        [
+          2,
+          0,
+          0,
+          1
+        ],
+        [
+          2,
+          1,
+          0,
+          2
+        ],
+        [
+          0,
+          2,
+          1,
+          1
+        ],
+        [
+
+        ]
+      ],
+      "id" : 51,
+      "metrics" : {
+        "complexity" : 32,
+        "score" : 72,
+        "solutionLength" : 12,
+        "solverEffort" : 17
+      },
+      "name" : "Orchid Grove",
+      "recipe" : {
+        "colors" : 3,
+        "emptyContainers" : 1,
+        "seed" : 3100015,
+        "version" : 1
+      },
+      "tier" : "medium"
+    },
+    {
+      "containers" : [
+        [
+          2,
+          3,
+          2,
+          3
+        ],
+        [
+          1,
+          2,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ],
+        [
+          1,
+          3,
+          0,
+          2
+        ],
+        [
+
+        ],
+        [
+
+        ]
+      ],
+      "id" : 52,
+      "metrics" : {
+        "complexity" : 34,
+        "score" : 73,
+        "solutionLength" : 12,
+        "solverEffort" : 13
+      },
+      "name" : "Moss Grove",
+      "recipe" : {
+        "colors" : 4,
+        "emptyContainers" : 2,
+        "seed" : 4200004,
+        "version" : 1
+      },
+      "tier" : "medium"
+    },
+    {
+      "containers" : [
+        [
+          2,
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          3,
+          2,
+          3,
+          1
+        ],
+        [
+          2,
+          3,
+          3,
+          2
+        ],
+        [
+
+        ],
+        [
+
+        ]
+      ],
+      "id" : 53,
+      "metrics" : {
+        "complexity" : 34,
+        "score" : 74,
+        "solutionLength" : 12,
+        "solverEffort" : 19
+      },
+      "name" : "Lotus Grove",
+      "recipe" : {
+        "colors" : 4,
+        "emptyContainers" : 2,
+        "seed" : 4200009,
+        "version" : 1
+      },
+      "tier" : "medium"
+    },
+    {
+      "containers" : [
+        [
+          3,
+          0,
+          0,
+          1
+        ],
+        [
+          2,
+          1,
+          1,
+          3
+        ],
+        [
+          3,
+          2,
+          3,
+          1
+        ],
+        [
+          2,
+          2,
+          0,
+          0
+        ],
+        [
+
+        ],
+        [
+
+        ]
+      ],
+      "id" : 54,
+      "metrics" : {
+        "complexity" : 32,
+        "score" : 74,
+        "solutionLength" : 13,
+        "solverEffort" : 13
+      },
+      "name" : "Saffron Grove",
+      "recipe" : {
+        "colors" : 4,
+        "emptyContainers" : 2,
+        "seed" : 4200110,
+        "version" : 1
+      },
+      "tier" : "medium"
+    },
+    {
+      "containers" : [
+        [
+          2,
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          2,
+          1,
+          1
+        ],
+        [
+          2,
+          1,
+          0,
+          0
+        ],
+        [
+
+        ]
+      ],
+      "id" : 55,
+      "metrics" : {
+        "complexity" : 32,
+        "score" : 75,
+        "solutionLength" : 13,
+        "solverEffort" : 18
+      },
+      "name" : "Silver Grove",
+      "recipe" : {
+        "colors" : 3,
+        "emptyContainers" : 1,
+        "seed" : 3100052,
+        "version" : 1
+      },
+      "tier" : "medium"
+    },
+    {
+      "containers" : [
+        [
+          3,
+          3,
+          3,
+          0
+        ],
+        [
+          2,
+          0,
+          1,
+          2
+        ],
+        [
+          1,
+          2,
+          1,
+          0
+        ],
+        [
+          2,
+          3,
+          0,
+          1
+        ],
+        [
+
+        ],
+        [
+
+        ]
+      ],
+      "id" : 56,
+      "metrics" : {
+        "complexity" : 36,
+        "score" : 75,
+        "solutionLength" : 12,
+        "solverEffort" : 14
+      },
+      "name" : "Rose Grove",
+      "recipe" : {
+        "colors" : 4,
+        "emptyContainers" : 2,
+        "seed" : 4200047,
+        "version" : 1
+      },
+      "tier" : "medium"
+    },
+    {
+      "containers" : [
+        [
+          1,
+          2,
+          3,
+          0
+        ],
+        [
+          2,
+          0,
+          1,
+          3
+        ],
+        [
+          0,
+          0,
+          1,
+          3
+        ],
+        [
+          2,
+          2,
+          3,
+          1
+        ],
+        [
+
+        ],
+        [
+
+        ]
+      ],
+      "id" : 57,
+      "metrics" : {
+        "complexity" : 36,
+        "score" : 76,
+        "solutionLength" : 12,
+        "solverEffort" : 16
+      },
+      "name" : "Moonlit Grove",
+      "recipe" : {
+        "colors" : 4,
+        "emptyContainers" : 2,
+        "seed" : 4200010,
+        "version" : 1
+      },
+      "tier" : "medium"
+    },
+    {
+      "containers" : [
+        [
+          0,
+          2,
+          0,
+          1
+        ],
+        [
+          0,
+          2,
+          2,
+          1
+        ],
+        [
+          1,
+          2,
+          1,
+          0
+        ],
+        [
+
+        ]
+      ],
+      "id" : 58,
+      "metrics" : {
+        "complexity" : 34,
+        "score" : 77,
+        "solutionLength" : 13,
+        "solverEffort" : 21
+      },
+      "name" : "Iris Grove",
+      "recipe" : {
+        "colors" : 3,
+        "emptyContainers" : 1,
+        "seed" : 3100023,
+        "version" : 1
+      },
+      "tier" : "medium"
+    },
+    {
+      "containers" : [
+        [
+          1,
+          2,
+          1,
+          2
+        ],
+        [
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          3,
+          3,
+          2
+        ],
+        [
+          1,
+          3,
+          3,
+          0
+        ],
+        [
+
+        ],
+        [
+
+        ]
+      ],
+      "id" : 59,
+      "metrics" : {
+        "complexity" : 32,
+        "score" : 77,
+        "solutionLength" : 14,
+        "solverEffort" : 14
+      },
+      "name" : "Pearl Grove",
+      "recipe" : {
+        "colors" : 4,
+        "emptyContainers" : 2,
+        "seed" : 4200020,
+        "version" : 1
+      },
+      "tier" : "medium"
+    },
+    {
+      "containers" : [
+        [
+          3,
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          3,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          2
+        ],
+        [
+          2,
+          1,
+          2,
+          3
+        ],
+        [
+
+        ],
+        [
+
+        ]
+      ],
+      "id" : 60,
+      "metrics" : {
+        "complexity" : 34,
+        "score" : 77,
+        "solutionLength" : 13,
+        "solverEffort" : 16
+      },
+      "name" : "Aurora Grove",
+      "recipe" : {
+        "colors" : 4,
+        "emptyContainers" : 2,
+        "seed" : 4200098,
+        "version" : 1
+      },
+      "tier" : "medium"
+    },
+    {
+      "containers" : [
+        [
+          1,
+          0,
+          2,
+          2
+        ],
+        [
+          1,
+          2,
+          1,
+          0
+        ],
+        [
+          1,
+          2,
+          0,
+          0
+        ],
+        [
+
+        ]
+      ],
+      "id" : 61,
+      "metrics" : {
+        "complexity" : 32,
+        "score" : 78,
+        "solutionLength" : 14,
+        "solverEffort" : 28
+      },
+      "name" : "Dewdrop Terrace",
+      "recipe" : {
+        "colors" : 3,
+        "emptyContainers" : 1,
+        "seed" : 3100091,
+        "version" : 1
+      },
+      "tier" : "medium"
+    },
+    {
+      "containers" : [
+        [
+          0,
+          2,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          1,
+          3
+        ],
+        [
+          3,
+          3,
+          1,
+          0
+        ],
+        [
+          2,
+          2,
+          3,
+          2
+        ],
+        [
+
+        ],
+        [
+
+        ]
+      ],
+      "id" : 62,
+      "metrics" : {
+        "complexity" : 34,
+        "score" : 78,
+        "solutionLength" : 13,
+        "solverEffort" : 39
+      },
+      "name" : "Willow Terrace",
+      "recipe" : {
+        "colors" : 4,
+        "emptyContainers" : 2,
+        "seed" : 4200022,
+        "version" : 1
+      },
+      "tier" : "medium"
+    },
+    {
+      "containers" : [
+        [
+          1,
+          0,
+          3,
+          2
+        ],
+        [
+          3,
+          2,
+          2,
+          2
+        ],
+        [
+          0,
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          3,
+          3,
+          0
+        ],
+        [
+
+        ],
+        [
+
+        ]
+      ],
+      "id" : 63,
+      "metrics" : {
+        "complexity" : 32,
+        "score" : 78,
+        "solutionLength" : 14,
+        "solverEffort" : 17
+      },
+      "name" : "Coral Terrace",
+      "recipe" : {
+        "colors" : 4,
+        "emptyContainers" : 2,
+        "seed" : 4200073,
+        "version" : 1
+      },
+      "tier" : "medium"
+    },
+    {
+      "containers" : [
+        [
+          1,
+          2,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          2,
+          1
+        ],
+        [
+          1,
+          0,
+          2,
+          0
+        ],
+        [
+
+        ]
+      ],
+      "id" : 64,
+      "metrics" : {
+        "complexity" : 36,
+        "score" : 79,
+        "solutionLength" : 13,
+        "solverEffort" : 18
+      },
+      "name" : "Sunlit Terrace",
+      "recipe" : {
+        "colors" : 3,
+        "emptyContainers" : 1,
+        "seed" : 3100004,
+        "version" : 1
+      },
+      "tier" : "medium"
+    },
+    {
+      "containers" : [
+        [
+          3,
+          2,
+          1,
+          0
+        ],
+        [
+          3,
+          2,
+          1,
+          2
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          2,
+          3,
+          3
+        ],
+        [
+
+        ],
+        [
+
+        ]
+      ],
+      "id" : 65,
+      "metrics" : {
+        "complexity" : 34,
+        "score" : 79,
+        "solutionLength" : 14,
+        "solverEffort" : 14
+      },
+      "name" : "Clover Terrace",
+      "recipe" : {
+        "colors" : 4,
+        "emptyContainers" : 2,
+        "seed" : 4200033,
+        "version" : 1
+      },
+      "tier" : "medium"
+    },
+    {
+      "containers" : [
+        [
+          0,
+          0,
+          3,
+          2
+        ],
+        [
+          2,
+          3,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          2,
+          3
+        ],
+        [
+          3,
+          0,
+          1,
+          2
+        ],
+        [
+
+        ],
+        [
+
+        ]
+      ],
+      "id" : 66,
+      "metrics" : {
+        "complexity" : 36,
+        "score" : 79,
+        "solutionLength" : 13,
+        "solverEffort" : 17
+      },
+      "name" : "Amber Terrace",
+      "recipe" : {
+        "colors" : 4,
+        "emptyContainers" : 2,
+        "seed" : 4200089,
+        "version" : 1
+      },
+      "tier" : "hard"
+    },
+    {
+      "containers" : [
+        [
+          3,
+          2,
+          2,
+          3
+        ],
+        [
+          0,
+          2,
+          0,
+          3
+        ],
+        [
+          2,
+          0,
+          1,
+          1
+        ],
+        [
+          3,
+          0,
+          1,
+          1
+        ],
+        [
+
+        ],
+        [
+
+        ]
+      ],
+      "id" : 67,
+      "metrics" : {
+        "complexity" : 34,
+        "score" : 80,
+        "solutionLength" : 14,
+        "solverEffort" : 22
+      },
+      "name" : "Bluebell Terrace",
+      "recipe" : {
+        "colors" : 4,
+        "emptyContainers" : 2,
+        "seed" : 4200036,
+        "version" : 1
+      },
+      "tier" : "hard"
+    },
+    {
+      "containers" : [
+        [
+          1,
+          0,
+          3,
+          2
+        ],
+        [
+          3,
+          0,
+          1,
+          0
+        ],
+        [
+          2,
+          2,
+          1,
+          3
+        ],
+        [
+          1,
+          0,
+          3,
+          2
+        ],
+        [
+
+        ],
+        [
+
+        ]
+      ],
+      "id" : 68,
+      "metrics" : {
+        "complexity" : 38,
+        "score" : 80,
+        "solutionLength" : 13,
+        "solverEffort" : 14
+      },
+      "name" : "Pebble Terrace",
+      "recipe" : {
+        "colors" : 4,
+        "emptyContainers" : 2,
+        "seed" : 4200078,
+        "version" : 1
+      },
+      "tier" : "hard"
+    },
+    {
+      "containers" : [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          3,
+          1,
+          3,
+          2
+        ],
+        [
+          3,
+          1,
+          0,
+          2
+        ],
+        [
+          3,
+          2,
+          1,
+          2
+        ],
+        [
+
+        ],
+        [
+
+        ]
+      ],
+      "id" : 69,
+      "metrics" : {
+        "complexity" : 36,
+        "score" : 81,
+        "solutionLength" : 14,
+        "solverEffort" : 14
+      },
+      "name" : "Fern Terrace",
+      "recipe" : {
+        "colors" : 4,
+        "emptyContainers" : 2,
+        "seed" : 4200007,
+        "version" : 1
+      },
+      "tier" : "hard"
+    },
+    {
+      "containers" : [
+        [
+          2,
+          0,
+          3,
+          3
+        ],
+        [
+          3,
+          2,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          1
+        ],
+        [
+          2,
+          2,
+          3,
+          1
+        ],
+        [
+
+        ],
+        [
+
+        ]
+      ],
+      "id" : 70,
+      "metrics" : {
+        "complexity" : 34,
+        "score" : 81,
+        "solutionLength" : 14,
+        "solverEffort" : 39
+      },
+      "name" : "Jade Terrace",
+      "recipe" : {
+        "colors" : 4,
+        "emptyContainers" : 2,
+        "seed" : 4200052,
+        "version" : 1
+      },
+      "tier" : "hard"
+    },
+    {
+      "containers" : [
+        [
+          3,
+          2,
+          1,
+          2
+        ],
+        [
+          2,
+          3,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          1,
+          3
+        ],
+        [
+          3,
+          0,
+          1,
+          1
+        ],
+        [
+
+        ],
+        [
+
+        ]
+      ],
+      "id" : 71,
+      "metrics" : {
+        "complexity" : 36,
+        "score" : 81,
+        "solutionLength" : 14,
+        "solverEffort" : 14
+      },
+      "name" : "Orchid Terrace",
+      "recipe" : {
+        "colors" : 4,
+        "emptyContainers" : 2,
+        "seed" : 4200072,
+        "version" : 1
+      },
+      "tier" : "hard"
+    },
+    {
+      "containers" : [
+        [
+          0,
+          1,
+          2,
+          2
+        ],
+        [
+          1,
+          3,
+          0,
+          2
+        ],
+        [
+          3,
+          1,
+          1,
+          3
+        ],
+        [
+          2,
+          0,
+          0,
+          3
+        ],
+        [
+
+        ],
+        [
+
+        ]
+      ],
+      "id" : 72,
+      "metrics" : {
+        "complexity" : 34,
+        "score" : 81,
+        "solutionLength" : 14,
+        "solverEffort" : 40
+      },
+      "name" : "Moss Terrace",
+      "recipe" : {
+        "colors" : 4,
+        "emptyContainers" : 2,
+        "seed" : 4200117,
+        "version" : 1
+      },
+      "tier" : "hard"
+    },
+    {
+      "containers" : [
+        [
+          0,
+          1,
+          3,
+          1
+        ],
+        [
+          3,
+          0,
+          0,
+          2
+        ],
+        [
+          2,
+          3,
+          0,
+          1
+        ],
+        [
+          3,
+          2,
+          2,
+          1
+        ],
+        [
+
+        ],
+        [
+
+        ]
+      ],
+      "id" : 73,
+      "metrics" : {
+        "complexity" : 36,
+        "score" : 82,
+        "solutionLength" : 14,
+        "solverEffort" : 18
+      },
+      "name" : "Lotus Terrace",
+      "recipe" : {
+        "colors" : 4,
+        "emptyContainers" : 2,
+        "seed" : 4200095,
+        "version" : 1
+      },
+      "tier" : "hard"
+    },
+    {
+      "containers" : [
+        [
+          1,
+          1,
+          2,
+          2
+        ],
+        [
+          3,
+          3,
+          2,
+          0
+        ],
+        [
+          1,
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          3,
+          0,
+          3
+        ],
+        [
+
+        ]
+      ],
+      "id" : 74,
+      "metrics" : {
+        "complexity" : 40,
+        "score" : 83,
+        "solutionLength" : 13,
+        "solverEffort" : 18
+      },
+      "name" : "Saffron Terrace",
+      "recipe" : {
+        "colors" : 4,
+        "emptyContainers" : 1,
+        "seed" : 4100098,
+        "version" : 1
+      },
+      "tier" : "hard"
+    },
+    {
+      "containers" : [
+        [
+          0,
+          2,
+          1,
+          2
+        ],
+        [
+          0,
+          2,
+          1,
+          2
+        ],
+        [
+          3,
+          0,
+          3,
+          3
+        ],
+        [
+          3,
+          1,
+          0,
+          1
+        ],
+        [
+
+        ],
+        [
+
+        ]
+      ],
+      "id" : 75,
+      "metrics" : {
+        "complexity" : 38,
+        "score" : 83,
+        "solutionLength" : 14,
+        "solverEffort" : 14
+      },
+      "name" : "Silver Terrace",
+      "recipe" : {
+        "colors" : 4,
+        "emptyContainers" : 2,
+        "seed" : 4200019,
+        "version" : 1
+      },
+      "tier" : "hard"
+    },
+    {
+      "containers" : [
+        [
+          3,
+          3,
+          1,
+          0
+        ],
+        [
+          1,
+          2,
+          1,
+          3
+        ],
+        [
+          2,
+          0,
+          0,
+          2
+        ],
+        [
+          3,
+          1,
+          2,
+          0
+        ],
+        [
+
+        ],
+        [
+
+        ]
+      ],
+      "id" : 76,
+      "metrics" : {
+        "complexity" : 36,
+        "score" : 83,
+        "solutionLength" : 14,
+        "solverEffort" : 55
+      },
+      "name" : "Rose Terrace",
+      "recipe" : {
+        "colors" : 4,
+        "emptyContainers" : 2,
+        "seed" : 4200092,
+        "version" : 1
+      },
+      "tier" : "hard"
+    },
+    {
+      "containers" : [
+        [
+          2,
+          3,
+          1,
+          2
+        ],
+        [
+          2,
+          1,
+          0,
+          3
+        ],
+        [
+          3,
+          1,
+          2,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          3
+        ],
+        [
+
+        ],
+        [
+
+        ]
+      ],
+      "id" : 77,
+      "metrics" : {
+        "complexity" : 38,
+        "score" : 84,
+        "solutionLength" : 14,
+        "solverEffort" : 17
+      },
+      "name" : "Moonlit Terrace",
+      "recipe" : {
+        "colors" : 4,
+        "emptyContainers" : 2,
+        "seed" : 4200046,
+        "version" : 1
+      },
+      "tier" : "hard"
+    },
+    {
+      "containers" : [
+        [
+          2,
+          2,
+          1,
+          2
+        ],
+        [
+          3,
+          3,
+          1,
+          3
+        ],
+        [
+          0,
+          2,
+          1,
+          0
+        ],
+        [
+          3,
+          0,
+          1,
+          0
+        ],
+        [
+
+        ],
+        [
+
+        ]
+      ],
+      "id" : 78,
+      "metrics" : {
+        "complexity" : 36,
+        "score" : 84,
+        "solutionLength" : 14,
+        "solverEffort" : 87
+      },
+      "name" : "Iris Terrace",
+      "recipe" : {
+        "colors" : 4,
+        "emptyContainers" : 2,
+        "seed" : 4200082,
+        "version" : 1
+      },
+      "tier" : "hard"
+    },
+    {
+      "containers" : [
+        [
+          2,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          2,
+          1,
+          2
+        ],
+        [
+          1,
+          0,
+          2,
+          1
+        ],
+        [
+
+        ]
+      ],
+      "id" : 79,
+      "metrics" : {
+        "complexity" : 36,
+        "score" : 85,
+        "solutionLength" : 15,
+        "solverEffort" : 25
+      },
+      "name" : "Pearl Terrace",
+      "recipe" : {
+        "colors" : 3,
+        "emptyContainers" : 1,
+        "seed" : 3100056,
+        "version" : 1
+      },
+      "tier" : "hard"
+    },
+    {
+      "containers" : [
+        [
+          2,
+          2,
+          1,
+          0
+        ],
+        [
+          3,
+          1,
+          0,
+          0
+        ],
+        [
+          2,
+          2,
+          1,
+          3
+        ],
+        [
+          3,
+          3,
+          1,
+          0
+        ],
+        [
+
+        ]
+      ],
+      "id" : 80,
+      "metrics" : {
+        "complexity" : 38,
+        "score" : 85,
+        "solutionLength" : 14,
+        "solverEffort" : 39
+      },
+      "name" : "Aurora Terrace",
+      "recipe" : {
+        "colors" : 4,
+        "emptyContainers" : 1,
+        "seed" : 4100034,
+        "version" : 1
+      },
+      "tier" : "hard"
+    },
+    {
+      "containers" : [
+        [
+          2,
+          1,
+          3,
+          1
+        ],
+        [
+          1,
+          3,
+          0,
+          2
+        ],
+        [
+          1,
+          2,
+          0,
+          3
+        ],
+        [
+          2,
+          0,
+          3,
+          0
+        ],
+        [
+
+        ],
+        [
+
+        ]
+      ],
+      "id" : 81,
+      "metrics" : {
+        "complexity" : 40,
+        "score" : 85,
+        "solutionLength" : 14,
+        "solverEffort" : 14
+      },
+      "name" : "Dewdrop Summit",
+      "recipe" : {
+        "colors" : 4,
+        "emptyContainers" : 2,
+        "seed" : 4200086,
+        "version" : 1
+      },
+      "tier" : "hard"
+    },
+    {
+      "containers" : [
+        [
+          2,
+          3,
+          1,
+          1
+        ],
+        [
+          3,
+          2,
+          0,
+          2
+        ],
+        [
+          1,
+          0,
+          1,
+          0
+        ],
+        [
+          2,
+          0,
+          3,
+          3
+        ],
+        [
+
+        ],
+        [
+
+        ]
+      ],
+      "id" : 82,
+      "metrics" : {
+        "complexity" : 36,
+        "score" : 86,
+        "solutionLength" : 15,
+        "solverEffort" : 49
+      },
+      "name" : "Willow Summit",
+      "recipe" : {
+        "colors" : 4,
+        "emptyContainers" : 2,
+        "seed" : 4200011,
+        "version" : 1
+      },
+      "tier" : "hard"
+    },
+    {
+      "containers" : [
+        [
+          3,
+          0,
+          2,
+          2
+        ],
+        [
+          1,
+          0,
+          1,
+          1
+        ],
+        [
+          3,
+          0,
+          3,
+          2
+        ],
+        [
+          0,
+          2,
+          1,
+          3
+        ],
+        [
+
+        ],
+        [
+
+        ]
+      ],
+      "id" : 83,
+      "metrics" : {
+        "complexity" : 36,
+        "score" : 86,
+        "solutionLength" : 15,
+        "solverEffort" : 52
+      },
+      "name" : "Coral Summit",
+      "recipe" : {
+        "colors" : 4,
+        "emptyContainers" : 2,
+        "seed" : 4200070,
+        "version" : 1
+      },
+      "tier" : "hard"
+    },
+    {
+      "containers" : [
+        [
+          0,
+          1,
+          1,
+          3
+        ],
+        [
+          3,
+          3,
+          2,
+          1
+        ],
+        [
+          3,
+          2,
+          1,
+          2
+        ],
+        [
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+
+        ]
+      ],
+      "id" : 84,
+      "metrics" : {
+        "complexity" : 38,
+        "score" : 87,
+        "solutionLength" : 15,
+        "solverEffort" : 29
+      },
+      "name" : "Sunlit Summit",
+      "recipe" : {
+        "colors" : 4,
+        "emptyContainers" : 1,
+        "seed" : 4100023,
+        "version" : 1
+      },
+      "tier" : "hard"
+    },
+    {
+      "containers" : [
+        [
+          1,
+          1,
+          1,
+          0
+        ],
+        [
+          2,
+          3,
+          0,
+          2
+        ],
+        [
+          3,
+          2,
+          3,
+          0
+        ],
+        [
+          2,
+          3,
+          1,
+          0
+        ],
+        [
+
+        ]
+      ],
+      "id" : 85,
+      "metrics" : {
+        "complexity" : 42,
+        "score" : 88,
+        "solutionLength" : 14,
+        "solverEffort" : 28
+      },
+      "name" : "Clover Summit",
+      "recipe" : {
+        "colors" : 4,
+        "emptyContainers" : 1,
+        "seed" : 4100062,
+        "version" : 1
+      },
+      "tier" : "hard"
+    },
+    {
+      "containers" : [
+        [
+          2,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          3,
+          0
+        ],
+        [
+          2,
+          3,
+          2,
+          1
+        ],
+        [
+          3,
+          2,
+          0,
+          3
+        ],
+        [
+
+        ],
+        [
+
+        ]
+      ],
+      "id" : 86,
+      "metrics" : {
+        "complexity" : 38,
+        "score" : 88,
+        "solutionLength" : 15,
+        "solverEffort" : 45
+      },
+      "name" : "Amber Summit",
+      "recipe" : {
+        "colors" : 4,
+        "emptyContainers" : 2,
+        "seed" : 4200074,
+        "version" : 1
+      },
+      "tier" : "expert"
+    },
+    {
+      "containers" : [
+        [
+          2,
+          3,
+          0,
+          1
+        ],
+        [
+          3,
+          0,
+          1,
+          2
+        ],
+        [
+          2,
+          3,
+          0,
+          1
+        ],
+        [
+          2,
+          0,
+          1,
+          3
+        ],
+        [
+
+        ],
+        [
+
+        ]
+      ],
+      "id" : 87,
+      "metrics" : {
+        "complexity" : 40,
+        "score" : 89,
+        "solutionLength" : 15,
+        "solverEffort" : 16
+      },
+      "name" : "Bluebell Summit",
+      "recipe" : {
+        "colors" : 4,
+        "emptyContainers" : 2,
+        "seed" : 4200000,
+        "version" : 1
+      },
+      "tier" : "expert"
+    },
+    {
+      "containers" : [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          2,
+          3,
+          0
+        ],
+        [
+          2,
+          3,
+          0,
+          1
+        ],
+        [
+          3,
+          0,
+          1,
+          2
+        ],
+        [
+
+        ],
+        [
+
+        ]
+      ],
+      "id" : 88,
+      "metrics" : {
+        "complexity" : 40,
+        "score" : 90,
+        "solutionLength" : 15,
+        "solverEffort" : 34
+      },
+      "name" : "Prism Summit",
+      "recipe" : {
+        "colors" : 4,
+        "emptyContainers" : 2,
+        "seed" : 5,
+        "version" : 0
+      },
+      "tier" : "expert"
+    },
+    {
+      "containers" : [
+        [
+          0,
+          3,
+          1,
+          3
+        ],
+        [
+          2,
+          1,
+          2,
+          0
+        ],
+        [
+          3,
+          2,
+          0,
+          1
+        ],
+        [
+          1,
+          3,
+          2,
+          0
+        ],
+        [
+
+        ],
+        [
+
+        ]
+      ],
+      "id" : 89,
+      "metrics" : {
+        "complexity" : 40,
+        "score" : 90,
+        "solutionLength" : 15,
+        "solverEffort" : 49
+      },
+      "name" : "Fern Summit",
+      "recipe" : {
+        "colors" : 4,
+        "emptyContainers" : 2,
+        "seed" : 4200076,
+        "version" : 1
+      },
+      "tier" : "expert"
+    },
+    {
+      "containers" : [
+        [
+          2,
+          3,
+          0,
+          2
+        ],
+        [
+          1,
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          0,
+          1
+        ],
+        [
+          3,
+          2,
+          3,
+          1
+        ],
+        [
+
+        ],
+        [
+
+        ]
+      ],
+      "id" : 90,
+      "metrics" : {
+        "complexity" : 40,
+        "score" : 91,
+        "solutionLength" : 15,
+        "solverEffort" : 103
+      },
+      "name" : "Jade Summit",
+      "recipe" : {
+        "colors" : 4,
+        "emptyContainers" : 2,
+        "seed" : 4200035,
+        "version" : 1
+      },
+      "tier" : "expert"
+    },
+    {
+      "containers" : [
+        [
+          0,
+          1,
+          2,
+          0
+        ],
+        [
+          1,
+          0,
+          2,
+          0
+        ],
+        [
+          2,
+          1,
+          2,
+          1
+        ],
+        [
+
+        ]
+      ],
+      "id" : 91,
+      "metrics" : {
+        "complexity" : 36,
+        "score" : 94,
+        "solutionLength" : 18,
+        "solverEffort" : 29
+      },
+      "name" : "Orchid Summit",
+      "recipe" : {
+        "colors" : 3,
+        "emptyContainers" : 1,
+        "seed" : 3100072,
+        "version" : 1
+      },
+      "tier" : "expert"
+    },
+    {
+      "containers" : [
+        [
+          3,
+          3,
+          1,
+          2
+        ],
+        [
+          1,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          2,
+          0,
+          3
+        ],
+        [
+          0,
+          2,
+          1,
+          0
+        ],
+        [
+
+        ]
+      ],
+      "id" : 92,
+      "metrics" : {
+        "complexity" : 42,
+        "score" : 94,
+        "solutionLength" : 16,
+        "solverEffort" : 22
+      },
+      "name" : "Moss Summit",
+      "recipe" : {
+        "colors" : 4,
+        "emptyContainers" : 1,
+        "seed" : 4100078,
+        "version" : 1
+      },
+      "tier" : "expert"
+    },
+    {
+      "containers" : [
+        [
+          3,
+          1,
+          0,
+          3
+        ],
+        [
+          1,
+          0,
+          2,
+          3
+        ],
+        [
+          1,
+          2,
+          3,
+          0
+        ],
+        [
+          2,
+          1,
+          0,
+          2
+        ],
+        [
+
+        ],
+        [
+
+        ]
+      ],
+      "id" : 93,
+      "metrics" : {
+        "complexity" : 40,
+        "score" : 94,
+        "solutionLength" : 16,
+        "solverEffort" : 112
+      },
+      "name" : "Lotus Summit",
+      "recipe" : {
+        "colors" : 4,
+        "emptyContainers" : 2,
+        "seed" : 4200105,
+        "version" : 1
+      },
+      "tier" : "expert"
+    },
+    {
+      "containers" : [
+        [
+          1,
+          0,
+          1,
+          2
+        ],
+        [
+          3,
+          3,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          0,
+          1
+        ],
+        [
+          2,
+          3,
+          3,
+          2
+        ],
+        [
+
+        ]
+      ],
+      "id" : 94,
+      "metrics" : {
+        "complexity" : 42,
+        "score" : 98,
+        "solutionLength" : 17,
+        "solverEffort" : 37
+      },
+      "name" : "Saffron Summit",
+      "recipe" : {
+        "colors" : 4,
+        "emptyContainers" : 1,
+        "seed" : 4100012,
+        "version" : 1
+      },
+      "tier" : "expert"
+    },
+    {
+      "containers" : [
+        [
+          0,
+          3,
+          2,
+          3
+        ],
+        [
+          1,
+          2,
+          3,
+          1
+        ],
+        [
+          2,
+          3,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1,
+          2
+        ],
+        [
+
+        ]
+      ],
+      "id" : 95,
+      "metrics" : {
+        "complexity" : 44,
+        "score" : 99,
+        "solutionLength" : 17,
+        "solverEffort" : 29
+      },
+      "name" : "Silver Summit",
+      "recipe" : {
+        "colors" : 4,
+        "emptyContainers" : 1,
+        "seed" : 4100119,
+        "version" : 1
+      },
+      "tier" : "expert"
+    },
+    {
+      "containers" : [
+        [
+          0,
+          2,
+          0,
+          2
+        ],
+        [
+          1,
+          3,
+          0,
+          3
+        ],
+        [
+          1,
+          3,
+          1,
+          1
+        ],
+        [
+          2,
+          0,
+          3,
+          2
+        ],
+        [
+
+        ]
+      ],
+      "id" : 96,
+      "metrics" : {
+        "complexity" : 44,
+        "score" : 102,
+        "solutionLength" : 18,
+        "solverEffort" : 26
+      },
+      "name" : "Rose Summit",
+      "recipe" : {
+        "colors" : 4,
+        "emptyContainers" : 1,
+        "seed" : 4100076,
+        "version" : 1
+      },
+      "tier" : "expert"
+    },
+    {
+      "containers" : [
+        [
+          3,
+          2,
+          3,
+          1
+        ],
+        [
+          1,
+          2,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          0
+        ],
+        [
+          1,
+          3,
+          1,
+          2
+        ],
+        [
+
+        ]
+      ],
+      "id" : 97,
+      "metrics" : {
+        "complexity" : 44,
+        "score" : 105,
+        "solutionLength" : 19,
+        "solverEffort" : 27
+      },
+      "name" : "Moonlit Summit",
+      "recipe" : {
+        "colors" : 4,
+        "emptyContainers" : 1,
+        "seed" : 4100113,
+        "version" : 1
+      },
+      "tier" : "expert"
+    },
+    {
+      "containers" : [
+        [
+          1,
+          0,
+          3,
+          2
+        ],
+        [
+          3,
+          0,
+          0,
+          2
+        ],
+        [
+          3,
+          1,
+          0,
+          1
+        ],
+        [
+          3,
+          2,
+          1,
+          2
+        ],
+        [
+
+        ]
+      ],
+      "id" : 98,
+      "metrics" : {
+        "complexity" : 44,
+        "score" : 106,
+        "solutionLength" : 19,
+        "solverEffort" : 35
+      },
+      "name" : "Iris Summit",
+      "recipe" : {
+        "colors" : 4,
+        "emptyContainers" : 1,
+        "seed" : 4100088,
+        "version" : 1
+      },
+      "tier" : "expert"
+    },
+    {
+      "containers" : [
+        [
+          0,
+          2,
+          1,
+          2
+        ],
+        [
+          2,
+          0,
+          0,
+          3
+        ],
+        [
+          0,
+          3,
+          3,
+          1
+        ],
+        [
+          1,
+          3,
+          1,
+          2
+        ],
+        [
+
+        ]
+      ],
+      "id" : 99,
+      "metrics" : {
+        "complexity" : 42,
+        "score" : 107,
+        "solutionLength" : 20,
+        "solverEffort" : 41
+      },
+      "name" : "Pearl Summit",
+      "recipe" : {
+        "colors" : 4,
+        "emptyContainers" : 1,
+        "seed" : 4100056,
+        "version" : 1
+      },
+      "tier" : "expert"
+    },
+    {
+      "containers" : [
+        [
+          0,
+          0,
+          2,
+          3
+        ],
+        [
+          3,
+          1,
+          0,
+          1
+        ],
+        [
+          2,
+          3,
+          1,
+          3
+        ],
+        [
+          2,
+          1,
+          2,
+          0
+        ],
+        [
+
+        ]
+      ],
+      "id" : 100,
+      "metrics" : {
+        "complexity" : 44,
+        "score" : 112,
+        "solutionLength" : 21,
+        "solverEffort" : 40
+      },
+      "name" : "Aurora Summit",
+      "recipe" : {
+        "colors" : 4,
+        "emptyContainers" : 1,
+        "seed" : 4100092,
+        "version" : 1
+      },
+      "tier" : "expert"
+    }
+  ],
+  "schemaVersion" : 2
+}

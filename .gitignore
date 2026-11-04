@@ -1,0 +1,14 @@
+.DS_Store
+.build/
+DerivedData*/
+*.xcuserstate
+xcuserdata/
+TestResults.xcresult/
+
+Configuration/Ads.local.xcconfig
+.spm-admob/
+
+Configuration/Telemetry.local.xcconfig
+Sources/SortScape/Resources/Firebase/
+
+.spm-firebase/
