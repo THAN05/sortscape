@@ -1,0 +1,14 @@
+{
+  "configuration": "official Google sample app and test ad units only",
+  "sdk": "GoogleMobileAds 13.12.0; UMP 3.1.0",
+  "observedCounters": {
+    "rewarded_load": 1,
+    "rewarded_failure": 1,
+    "interstitial_load": 1,
+    "interstitial_failure": 1
+  },
+  "impressions": 0,
+  "earnedRewards": 0,
+  "result": "Consent permitted initial SDK loading; both test-ad loads failed. No network-served creative was presented. Normal menu remained available. Subsequent consent refresh did not yield another load during observation. No precise network/error cause established.",
+  "profile": "isolated debug QA profile; regular progress preserved"
+}

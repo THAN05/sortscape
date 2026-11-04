@@ -1,0 +1,45 @@
+{
+  "sourceResult": "/Users/aperros/Developer/apps/sortscape/DerivedDataPhase10Capture/Large-iPhone-Retry.xcresult",
+  "images": [
+    {
+      "file": "03-restored-island.png",
+      "pixels": [
+        1320,
+        2868
+      ],
+      "device": "iPhone 18 Pro Max",
+      "test": "ProgressionUITests/testAllTenDecorationsCanBeBuiltWithEarnedCoins",
+      "usage": "candidate"
+    },
+    {
+      "file": "02-completion.png",
+      "pixels": [
+        1320,
+        2868
+      ],
+      "device": "iPhone 18 Pro Max",
+      "test": "ProgressionUITests/testSolveRewardUnlockAndRelaunchPersistence",
+      "usage": "candidate"
+    },
+    {
+      "file": "01-gameplay.png",
+      "pixels": [
+        1320,
+        2868
+      ],
+      "device": "iPhone 18 Pro Max",
+      "test": "ProgressionUITests/testSolveRewardUnlockAndRelaunchPersistence",
+      "usage": "candidate"
+    },
+    {
+      "file": "qa-only-home.png",
+      "pixels": [
+        1320,
+        2868
+      ],
+      "device": "iPhone 18 Pro Max",
+      "test": "ProgressionUITests/testSolveRewardUnlockAndRelaunchPersistence",
+      "usage": "QA only; Debug home may expose the local storefront"
+    }
+  ]
+}

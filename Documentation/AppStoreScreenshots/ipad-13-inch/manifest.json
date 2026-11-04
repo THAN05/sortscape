@@ -1,0 +1,45 @@
+{
+  "sourceResult": "/Users/aperros/Developer/apps/sortscape/DerivedDataPhase10Tablet/iPad.xcresult",
+  "images": [
+    {
+      "file": "03-restored-island.png",
+      "pixels": [
+        2064,
+        2752
+      ],
+      "device": "iPad Pro 13-inch (M5)",
+      "test": "ProgressionUITests/testAllTenDecorationsCanBeBuiltWithEarnedCoins",
+      "usage": "candidate"
+    },
+    {
+      "file": "02-completion.png",
+      "pixels": [
+        2064,
+        2752
+      ],
+      "device": "iPad Pro 13-inch (M5)",
+      "test": "ProgressionUITests/testSolveRewardUnlockAndRelaunchPersistence",
+      "usage": "candidate"
+    },
+    {
+      "file": "01-gameplay.png",
+      "pixels": [
+        2064,
+        2752
+      ],
+      "device": "iPad Pro 13-inch (M5)",
+      "test": "ProgressionUITests/testSolveRewardUnlockAndRelaunchPersistence",
+      "usage": "candidate"
+    },
+    {
+      "file": "qa-only-home.png",
+      "pixels": [
+        2064,
+        2752
+      ],
+      "device": "iPad Pro 13-inch (M5)",
+      "test": "ProgressionUITests/testSolveRewardUnlockAndRelaunchPersistence",
+      "usage": "QA only; Debug home may expose the local storefront"
+    }
+  ]
+}

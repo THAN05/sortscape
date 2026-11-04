@@ -1,0 +1,4 @@
+// Free launch candidate. Sample app ID is inert SDK metadata; no ad units load.
+ADMOB_APP_ID = ca-app-pub-3940256099942544~1458002511
+ADS_ENABLED = NO
+TELEMETRY_ENVIRONMENT = Production

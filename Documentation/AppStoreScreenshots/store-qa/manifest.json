@@ -1,0 +1,15 @@
+{
+  "sourceResult": "/Users/aperros/Developer/apps/sortscape/DerivedDataPhase10Capture/StoreKit-QA.xcresult",
+  "images": [
+    {
+      "file": "qa-only-local-store.png",
+      "pixels": [
+        1206,
+        2622
+      ],
+      "device": "iPhone 18 Pro",
+      "test": "StoreUITests/testLocalStorePurchasesAndHintInventorySurviveRelaunch",
+      "usage": "QA only; local StoreKit fixture"
+    }
+  ]
+}

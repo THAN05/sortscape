@@ -1,0 +1,45 @@
+{
+  "sourceResult": "/Users/aperros/Developer/apps/sortscape/DerivedDataPhase10/NonPurchase-QA.xcresult",
+  "images": [
+    {
+      "file": "03-restored-island.png",
+      "pixels": [
+        750,
+        1334
+      ],
+      "device": "SortScape Compact QA",
+      "test": "ProgressionUITests/testAllTenDecorationsCanBeBuiltWithEarnedCoins",
+      "usage": "candidate"
+    },
+    {
+      "file": "02-completion.png",
+      "pixels": [
+        750,
+        1334
+      ],
+      "device": "SortScape Compact QA",
+      "test": "ProgressionUITests/testSolveRewardUnlockAndRelaunchPersistence",
+      "usage": "candidate"
+    },
+    {
+      "file": "01-gameplay.png",
+      "pixels": [
+        750,
+        1334
+      ],
+      "device": "SortScape Compact QA",
+      "test": "ProgressionUITests/testSolveRewardUnlockAndRelaunchPersistence",
+      "usage": "candidate"
+    },
+    {
+      "file": "qa-only-home.png",
+      "pixels": [
+        750,
+        1334
+      ],
+      "device": "SortScape Compact QA",
+      "test": "ProgressionUITests/testSolveRewardUnlockAndRelaunchPersistence",
+      "usage": "QA only; Debug home may expose the local storefront"
+    }
+  ]
+}
