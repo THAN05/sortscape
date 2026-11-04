@@ -1,0 +1,802 @@
+[
+  {
+    "difficultyScore" : 29,
+    "id" : 1,
+    "seed" : 1,
+    "solutionLength" : 3,
+    "solverEffort" : 3,
+    "tier" : "beginner"
+  },
+  {
+    "difficultyScore" : 33,
+    "id" : 2,
+    "seed" : 2,
+    "solutionLength" : 6,
+    "solverEffort" : 7,
+    "tier" : "beginner"
+  },
+  {
+    "difficultyScore" : 34,
+    "id" : 3,
+    "seed" : 2200007,
+    "solutionLength" : 6,
+    "solverEffort" : 6,
+    "tier" : "beginner"
+  },
+  {
+    "difficultyScore" : 36,
+    "id" : 4,
+    "seed" : 2200000,
+    "solutionLength" : 6,
+    "solverEffort" : 6,
+    "tier" : "beginner"
+  },
+  {
+    "difficultyScore" : 37,
+    "id" : 5,
+    "seed" : 2100049,
+    "solutionLength" : 5,
+    "solverEffort" : 6,
+    "tier" : "beginner"
+  },
+  {
+    "difficultyScore" : 40,
+    "id" : 6,
+    "seed" : 2100002,
+    "solutionLength" : 6,
+    "solverEffort" : 6,
+    "tier" : "beginner"
+  },
+  {
+    "difficultyScore" : 42,
+    "id" : 7,
+    "seed" : 2100010,
+    "solutionLength" : 7,
+    "solverEffort" : 7,
+    "tier" : "beginner"
+  },
+  {
+    "difficultyScore" : 44,
+    "id" : 8,
+    "seed" : 2100005,
+    "solutionLength" : 7,
+    "solverEffort" : 7,
+    "tier" : "beginner"
+  },
+  {
+    "difficultyScore" : 45,
+    "id" : 9,
+    "seed" : 2200021,
+    "solutionLength" : 8,
+    "solverEffort" : 10,
+    "tier" : "beginner"
+  },
+  {
+    "difficultyScore" : 46,
+    "id" : 10,
+    "seed" : 3200014,
+    "solutionLength" : 7,
+    "solverEffort" : 7,
+    "tier" : "beginner"
+  },
+  {
+    "difficultyScore" : 47,
+    "id" : 11,
+    "seed" : 3200072,
+    "solutionLength" : 8,
+    "solverEffort" : 8,
+    "tier" : "beginner"
+  },
+  {
+    "difficultyScore" : 50,
+    "id" : 12,
+    "seed" : 3200003,
+    "solutionLength" : 9,
+    "solverEffort" : 9,
+    "tier" : "beginner"
+  },
+  {
+    "difficultyScore" : 51,
+    "id" : 13,
+    "seed" : 2100008,
+    "solutionLength" : 8,
+    "solverEffort" : 8,
+    "tier" : "beginner"
+  },
+  {
+    "difficultyScore" : 51,
+    "id" : 14,
+    "seed" : 3200098,
+    "solutionLength" : 8,
+    "solverEffort" : 13,
+    "tier" : "beginner"
+  },
+  {
+    "difficultyScore" : 53,
+    "id" : 15,
+    "seed" : 3200004,
+    "solutionLength" : 10,
+    "solverEffort" : 10,
+    "tier" : "beginner"
+  },
+  {
+    "difficultyScore" : 54,
+    "id" : 16,
+    "seed" : 3200028,
+    "solutionLength" : 9,
+    "solverEffort" : 12,
+    "tier" : "beginner"
+  },
+  {
+    "difficultyScore" : 55,
+    "id" : 17,
+    "seed" : 3,
+    "solutionLength" : 9,
+    "solverEffort" : 21,
+    "tier" : "beginner"
+  },
+  {
+    "difficultyScore" : 55,
+    "id" : 18,
+    "seed" : 3100067,
+    "solutionLength" : 8,
+    "solverEffort" : 8,
+    "tier" : "beginner"
+  },
+  {
+    "difficultyScore" : 55,
+    "id" : 19,
+    "seed" : 3200019,
+    "solutionLength" : 10,
+    "solverEffort" : 12,
+    "tier" : "beginner"
+  },
+  {
+    "difficultyScore" : 55,
+    "id" : 20,
+    "seed" : 3200094,
+    "solutionLength" : 10,
+    "solverEffort" : 10,
+    "tier" : "beginner"
+  },
+  {
+    "difficultyScore" : 56,
+    "id" : 21,
+    "seed" : 3200006,
+    "solutionLength" : 9,
+    "solverEffort" : 13,
+    "tier" : "easy"
+  },
+  {
+    "difficultyScore" : 56,
+    "id" : 22,
+    "seed" : 3200099,
+    "solutionLength" : 9,
+    "solverEffort" : 11,
+    "tier" : "easy"
+  },
+  {
+    "difficultyScore" : 57,
+    "id" : 23,
+    "seed" : 3200001,
+    "solutionLength" : 9,
+    "solverEffort" : 16,
+    "tier" : "easy"
+  },
+  {
+    "difficultyScore" : 57,
+    "id" : 24,
+    "seed" : 3200057,
+    "solutionLength" : 10,
+    "solverEffort" : 10,
+    "tier" : "easy"
+  },
+  {
+    "difficultyScore" : 57,
+    "id" : 25,
+    "seed" : 3200074,
+    "solutionLength" : 10,
+    "solverEffort" : 10,
+    "tier" : "easy"
+  },
+  {
+    "difficultyScore" : 58,
+    "id" : 26,
+    "seed" : 3100018,
+    "solutionLength" : 9,
+    "solverEffort" : 12,
+    "tier" : "easy"
+  },
+  {
+    "difficultyScore" : 59,
+    "id" : 27,
+    "seed" : 3200012,
+    "solutionLength" : 10,
+    "solverEffort" : 12,
+    "tier" : "easy"
+  },
+  {
+    "difficultyScore" : 59,
+    "id" : 28,
+    "seed" : 3200049,
+    "solutionLength" : 10,
+    "solverEffort" : 11,
+    "tier" : "easy"
+  },
+  {
+    "difficultyScore" : 59,
+    "id" : 29,
+    "seed" : 3200085,
+    "solutionLength" : 10,
+    "solverEffort" : 13,
+    "tier" : "easy"
+  },
+  {
+    "difficultyScore" : 60,
+    "id" : 30,
+    "seed" : 3100068,
+    "solutionLength" : 9,
+    "solverEffort" : 11,
+    "tier" : "easy"
+  },
+  {
+    "difficultyScore" : 60,
+    "id" : 31,
+    "seed" : 3200016,
+    "solutionLength" : 11,
+    "solverEffort" : 11,
+    "tier" : "easy"
+  },
+  {
+    "difficultyScore" : 60,
+    "id" : 32,
+    "seed" : 3200086,
+    "solutionLength" : 11,
+    "solverEffort" : 12,
+    "tier" : "easy"
+  },
+  {
+    "difficultyScore" : 61,
+    "id" : 33,
+    "seed" : 3200070,
+    "solutionLength" : 10,
+    "solverEffort" : 12,
+    "tier" : "easy"
+  },
+  {
+    "difficultyScore" : 62,
+    "id" : 34,
+    "seed" : 3100076,
+    "solutionLength" : 9,
+    "solverEffort" : 10,
+    "tier" : "easy"
+  },
+  {
+    "difficultyScore" : 62,
+    "id" : 35,
+    "seed" : 3200032,
+    "solutionLength" : 11,
+    "solverEffort" : 11,
+    "tier" : "easy"
+  },
+  {
+    "difficultyScore" : 62,
+    "id" : 36,
+    "seed" : 3200053,
+    "solutionLength" : 11,
+    "solverEffort" : 34,
+    "tier" : "easy"
+  },
+  {
+    "difficultyScore" : 63,
+    "id" : 37,
+    "seed" : 3100057,
+    "solutionLength" : 10,
+    "solverEffort" : 12,
+    "tier" : "easy"
+  },
+  {
+    "difficultyScore" : 63,
+    "id" : 38,
+    "seed" : 3200069,
+    "solutionLength" : 11,
+    "solverEffort" : 15,
+    "tier" : "easy"
+  },
+  {
+    "difficultyScore" : 64,
+    "id" : 39,
+    "seed" : 3200008,
+    "solutionLength" : 11,
+    "solverEffort" : 11,
+    "tier" : "easy"
+  },
+  {
+    "difficultyScore" : 64,
+    "id" : 40,
+    "seed" : 3200061,
+    "solutionLength" : 11,
+    "solverEffort" : 14,
+    "tier" : "easy"
+  },
+  {
+    "difficultyScore" : 64,
+    "id" : 41,
+    "seed" : 3200095,
+    "solutionLength" : 11,
+    "solverEffort" : 14,
+    "tier" : "medium"
+  },
+  {
+    "difficultyScore" : 65,
+    "id" : 42,
+    "seed" : 3100078,
+    "solutionLength" : 10,
+    "solverEffort" : 12,
+    "tier" : "medium"
+  },
+  {
+    "difficultyScore" : 65,
+    "id" : 43,
+    "seed" : 3200059,
+    "solutionLength" : 11,
+    "solverEffort" : 15,
+    "tier" : "medium"
+  },
+  {
+    "difficultyScore" : 66,
+    "id" : 44,
+    "seed" : 3100043,
+    "solutionLength" : 11,
+    "solverEffort" : 13,
+    "tier" : "medium"
+  },
+  {
+    "difficultyScore" : 67,
+    "id" : 45,
+    "seed" : 3100003,
+    "solutionLength" : 10,
+    "solverEffort" : 13,
+    "tier" : "medium"
+  },
+  {
+    "difficultyScore" : 68,
+    "id" : 46,
+    "seed" : 3100069,
+    "solutionLength" : 11,
+    "solverEffort" : 11,
+    "tier" : "medium"
+  },
+  {
+    "difficultyScore" : 68,
+    "id" : 47,
+    "seed" : 4200108,
+    "solutionLength" : 11,
+    "solverEffort" : 11,
+    "tier" : "medium"
+  },
+  {
+    "difficultyScore" : 69,
+    "id" : 48,
+    "seed" : 3100037,
+    "solutionLength" : 11,
+    "solverEffort" : 16,
+    "tier" : "medium"
+  },
+  {
+    "difficultyScore" : 70,
+    "id" : 49,
+    "seed" : 3100010,
+    "solutionLength" : 12,
+    "solverEffort" : 16,
+    "tier" : "medium"
+  },
+  {
+    "difficultyScore" : 71,
+    "id" : 50,
+    "seed" : 3100013,
+    "solutionLength" : 11,
+    "solverEffort" : 15,
+    "tier" : "medium"
+  },
+  {
+    "difficultyScore" : 72,
+    "id" : 51,
+    "seed" : 3100015,
+    "solutionLength" : 12,
+    "solverEffort" : 17,
+    "tier" : "medium"
+  },
+  {
+    "difficultyScore" : 73,
+    "id" : 52,
+    "seed" : 4200004,
+    "solutionLength" : 12,
+    "solverEffort" : 13,
+    "tier" : "medium"
+  },
+  {
+    "difficultyScore" : 74,
+    "id" : 53,
+    "seed" : 4200009,
+    "solutionLength" : 12,
+    "solverEffort" : 19,
+    "tier" : "medium"
+  },
+  {
+    "difficultyScore" : 74,
+    "id" : 54,
+    "seed" : 4200110,
+    "solutionLength" : 13,
+    "solverEffort" : 13,
+    "tier" : "medium"
+  },
+  {
+    "difficultyScore" : 75,
+    "id" : 55,
+    "seed" : 3100052,
+    "solutionLength" : 13,
+    "solverEffort" : 18,
+    "tier" : "medium"
+  },
+  {
+    "difficultyScore" : 75,
+    "id" : 56,
+    "seed" : 4200047,
+    "solutionLength" : 12,
+    "solverEffort" : 14,
+    "tier" : "medium"
+  },
+  {
+    "difficultyScore" : 76,
+    "id" : 57,
+    "seed" : 4200010,
+    "solutionLength" : 12,
+    "solverEffort" : 16,
+    "tier" : "medium"
+  },
+  {
+    "difficultyScore" : 77,
+    "id" : 58,
+    "seed" : 3100023,
+    "solutionLength" : 13,
+    "solverEffort" : 21,
+    "tier" : "medium"
+  },
+  {
+    "difficultyScore" : 77,
+    "id" : 59,
+    "seed" : 4200020,
+    "solutionLength" : 14,
+    "solverEffort" : 14,
+    "tier" : "medium"
+  },
+  {
+    "difficultyScore" : 77,
+    "id" : 60,
+    "seed" : 4200098,
+    "solutionLength" : 13,
+    "solverEffort" : 16,
+    "tier" : "medium"
+  },
+  {
+    "difficultyScore" : 78,
+    "id" : 61,
+    "seed" : 3100091,
+    "solutionLength" : 14,
+    "solverEffort" : 28,
+    "tier" : "medium"
+  },
+  {
+    "difficultyScore" : 78,
+    "id" : 62,
+    "seed" : 4200022,
+    "solutionLength" : 13,
+    "solverEffort" : 39,
+    "tier" : "medium"
+  },
+  {
+    "difficultyScore" : 78,
+    "id" : 63,
+    "seed" : 4200073,
+    "solutionLength" : 14,
+    "solverEffort" : 17,
+    "tier" : "medium"
+  },
+  {
+    "difficultyScore" : 79,
+    "id" : 64,
+    "seed" : 3100004,
+    "solutionLength" : 13,
+    "solverEffort" : 18,
+    "tier" : "medium"
+  },
+  {
+    "difficultyScore" : 79,
+    "id" : 65,
+    "seed" : 4200033,
+    "solutionLength" : 14,
+    "solverEffort" : 14,
+    "tier" : "medium"
+  },
+  {
+    "difficultyScore" : 79,
+    "id" : 66,
+    "seed" : 4200089,
+    "solutionLength" : 13,
+    "solverEffort" : 17,
+    "tier" : "hard"
+  },
+  {
+    "difficultyScore" : 80,
+    "id" : 67,
+    "seed" : 4200036,
+    "solutionLength" : 14,
+    "solverEffort" : 22,
+    "tier" : "hard"
+  },
+  {
+    "difficultyScore" : 80,
+    "id" : 68,
+    "seed" : 4200078,
+    "solutionLength" : 13,
+    "solverEffort" : 14,
+    "tier" : "hard"
+  },
+  {
+    "difficultyScore" : 81,
+    "id" : 69,
+    "seed" : 4200007,
+    "solutionLength" : 14,
+    "solverEffort" : 14,
+    "tier" : "hard"
+  },
+  {
+    "difficultyScore" : 81,
+    "id" : 70,
+    "seed" : 4200052,
+    "solutionLength" : 14,
+    "solverEffort" : 39,
+    "tier" : "hard"
+  },
+  {
+    "difficultyScore" : 81,
+    "id" : 71,
+    "seed" : 4200072,
+    "solutionLength" : 14,
+    "solverEffort" : 14,
+    "tier" : "hard"
+  },
+  {
+    "difficultyScore" : 81,
+    "id" : 72,
+    "seed" : 4200117,
+    "solutionLength" : 14,
+    "solverEffort" : 40,
+    "tier" : "hard"
+  },
+  {
+    "difficultyScore" : 82,
+    "id" : 73,
+    "seed" : 4200095,
+    "solutionLength" : 14,
+    "solverEffort" : 18,
+    "tier" : "hard"
+  },
+  {
+    "difficultyScore" : 83,
+    "id" : 74,
+    "seed" : 4100098,
+    "solutionLength" : 13,
+    "solverEffort" : 18,
+    "tier" : "hard"
+  },
+  {
+    "difficultyScore" : 83,
+    "id" : 75,
+    "seed" : 4200019,
+    "solutionLength" : 14,
+    "solverEffort" : 14,
+    "tier" : "hard"
+  },
+  {
+    "difficultyScore" : 83,
+    "id" : 76,
+    "seed" : 4200092,
+    "solutionLength" : 14,
+    "solverEffort" : 55,
+    "tier" : "hard"
+  },
+  {
+    "difficultyScore" : 84,
+    "id" : 77,
+    "seed" : 4200046,
+    "solutionLength" : 14,
+    "solverEffort" : 17,
+    "tier" : "hard"
+  },
+  {
+    "difficultyScore" : 84,
+    "id" : 78,
+    "seed" : 4200082,
+    "solutionLength" : 14,
+    "solverEffort" : 87,
+    "tier" : "hard"
+  },
+  {
+    "difficultyScore" : 85,
+    "id" : 79,
+    "seed" : 3100056,
+    "solutionLength" : 15,
+    "solverEffort" : 25,
+    "tier" : "hard"
+  },
+  {
+    "difficultyScore" : 85,
+    "id" : 80,
+    "seed" : 4100034,
+    "solutionLength" : 14,
+    "solverEffort" : 39,
+    "tier" : "hard"
+  },
+  {
+    "difficultyScore" : 85,
+    "id" : 81,
+    "seed" : 4200086,
+    "solutionLength" : 14,
+    "solverEffort" : 14,
+    "tier" : "hard"
+  },
+  {
+    "difficultyScore" : 86,
+    "id" : 82,
+    "seed" : 4200011,
+    "solutionLength" : 15,
+    "solverEffort" : 49,
+    "tier" : "hard"
+  },
+  {
+    "difficultyScore" : 86,
+    "id" : 83,
+    "seed" : 4200070,
+    "solutionLength" : 15,
+    "solverEffort" : 52,
+    "tier" : "hard"
+  },
+  {
+    "difficultyScore" : 87,
+    "id" : 84,
+    "seed" : 4100023,
+    "solutionLength" : 15,
+    "solverEffort" : 29,
+    "tier" : "hard"
+  },
+  {
+    "difficultyScore" : 88,
+    "id" : 85,
+    "seed" : 4100062,
+    "solutionLength" : 14,
+    "solverEffort" : 28,
+    "tier" : "hard"
+  },
+  {
+    "difficultyScore" : 88,
+    "id" : 86,
+    "seed" : 4200074,
+    "solutionLength" : 15,
+    "solverEffort" : 45,
+    "tier" : "expert"
+  },
+  {
+    "difficultyScore" : 89,
+    "id" : 87,
+    "seed" : 4200000,
+    "solutionLength" : 15,
+    "solverEffort" : 16,
+    "tier" : "expert"
+  },
+  {
+    "difficultyScore" : 90,
+    "id" : 88,
+    "seed" : 5,
+    "solutionLength" : 15,
+    "solverEffort" : 34,
+    "tier" : "expert"
+  },
+  {
+    "difficultyScore" : 90,
+    "id" : 89,
+    "seed" : 4200076,
+    "solutionLength" : 15,
+    "solverEffort" : 49,
+    "tier" : "expert"
+  },
+  {
+    "difficultyScore" : 91,
+    "id" : 90,
+    "seed" : 4200035,
+    "solutionLength" : 15,
+    "solverEffort" : 103,
+    "tier" : "expert"
+  },
+  {
+    "difficultyScore" : 94,
+    "id" : 91,
+    "seed" : 3100072,
+    "solutionLength" : 18,
+    "solverEffort" : 29,
+    "tier" : "expert"
+  },
+  {
+    "difficultyScore" : 94,
+    "id" : 92,
+    "seed" : 4100078,
+    "solutionLength" : 16,
+    "solverEffort" : 22,
+    "tier" : "expert"
+  },
+  {
+    "difficultyScore" : 94,
+    "id" : 93,
+    "seed" : 4200105,
+    "solutionLength" : 16,
+    "solverEffort" : 112,
+    "tier" : "expert"
+  },
+  {
+    "difficultyScore" : 98,
+    "id" : 94,
+    "seed" : 4100012,
+    "solutionLength" : 17,
+    "solverEffort" : 37,
+    "tier" : "expert"
+  },
+  {
+    "difficultyScore" : 99,
+    "id" : 95,
+    "seed" : 4100119,
+    "solutionLength" : 17,
+    "solverEffort" : 29,
+    "tier" : "expert"
+  },
+  {
+    "difficultyScore" : 102,
+    "id" : 96,
+    "seed" : 4100076,
+    "solutionLength" : 18,
+    "solverEffort" : 26,
+    "tier" : "expert"
+  },
+  {
+    "difficultyScore" : 105,
+    "id" : 97,
+    "seed" : 4100113,
+    "solutionLength" : 19,
+    "solverEffort" : 27,
+    "tier" : "expert"
+  },
+  {
+    "difficultyScore" : 106,
+    "id" : 98,
+    "seed" : 4100088,
+    "solutionLength" : 19,
+    "solverEffort" : 35,
+    "tier" : "expert"
+  },
+  {
+    "difficultyScore" : 107,
+    "id" : 99,
+    "seed" : 4100056,
+    "solutionLength" : 20,
+    "solverEffort" : 41,
+    "tier" : "expert"
+  },
+  {
+    "difficultyScore" : 112,
+    "id" : 100,
+    "seed" : 4100092,
+    "solutionLength" : 21,
+    "solverEffort" : 40,
+    "tier" : "expert"
+  }
+]

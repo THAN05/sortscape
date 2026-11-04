@@ -1,0 +1,432 @@
+{
+  "distinctPassed": 100,
+  "runs": {
+    "nonpurchase": {
+      "total": 92,
+      "passed": 91,
+      "result": "/Users/aperros/Developer/apps/sortscape/DerivedDataPhase10/NonPurchase-QA.xcresult"
+    },
+    "storekit": {
+      "total": 8,
+      "passed": 8,
+      "result": "/Users/aperros/Developer/apps/sortscape/DerivedDataPhase10Capture/StoreKit-QA.xcresult"
+    },
+    "privacy": {
+      "total": 1,
+      "passed": 1,
+      "result": "/Users/aperros/Developer/apps/sortscape/DerivedDataPhase10/Privacy-Followup.xcresult"
+    },
+    "large-retry": {
+      "total": 2,
+      "passed": 2,
+      "result": "/Users/aperros/Developer/apps/sortscape/DerivedDataPhase10Capture/Large-iPhone-Retry.xcresult"
+    },
+    "ipad": {
+      "total": 2,
+      "passed": 2,
+      "result": "/Users/aperros/Developer/apps/sortscape/DerivedDataPhase10Tablet/iPad.xcresult"
+    }
+  },
+  "tests": [
+    {
+      "suite": "PuzzleCoreTests.AdvertisingTests",
+      "test": "testBonusRequiresCompletedLevelAndNeverRepeatsOnReplay"
+    },
+    {
+      "suite": "PuzzleCoreTests.AdvertisingTests",
+      "test": "testFrequencyAndRewardsSurviveRestartAndV4Migration"
+    },
+    {
+      "suite": "PuzzleCoreTests.AdvertisingTests",
+      "test": "testInterstitialFirstSessionTimingPlacementOwnershipAndGlobalCaps"
+    },
+    {
+      "suite": "PuzzleCoreTests.AdvertisingTests",
+      "test": "testRewardCallbacksAreIdempotentAndConflictSafe"
+    },
+    {
+      "suite": "PuzzleCoreTests.CampaignProgressTests",
+      "test": "testFullCampaignUnlocksAndAwardsEachLevelExactlyOnce"
+    },
+    {
+      "suite": "PuzzleCoreTests.CampaignProgressTests",
+      "test": "testReplayImprovesStarsAndBestMovesWithoutDuplicateReward"
+    },
+    {
+      "suite": "PuzzleCoreTests.CampaignProgressTests",
+      "test": "testStarsAndUnlocksPersistAcrossFreshStoreInstances"
+    },
+    {
+      "suite": "PuzzleCoreTests.CampaignProgressTests",
+      "test": "testVersionOneMigrationPreservesCoinsScoresAndBackup"
+    },
+    {
+      "suite": "PuzzleCoreTests.CampaignTests",
+      "test": "testAStarMatchesIndependentBreadthFirstSearchOnSmallBoards"
+    },
+    {
+      "suite": "PuzzleCoreTests.CampaignTests",
+      "test": "testAllHundredLevelsValidateAndReproduceExactly"
+    },
+    {
+      "suite": "PuzzleCoreTests.CampaignTests",
+      "test": "testCanonicalIdentityRejectsCosmeticPermutations"
+    },
+    {
+      "suite": "PuzzleCoreTests.CampaignTests",
+      "test": "testGeneratorRejectsUnsupportedRecipesAndHugeLegacySeed"
+    },
+    {
+      "suite": "PuzzleCoreTests.CampaignTests",
+      "test": "testStrictSchemaAndTamperedCampaignAreRejected"
+    },
+    {
+      "suite": "PuzzleCoreTests.CampaignTests",
+      "test": "testTierCountsAndDifficultyCurveHaveNoSpikes"
+    },
+    {
+      "suite": "PuzzleCoreTests.EconomyTests",
+      "test": "testAllRestorationsAndMilestonesAreReachableWithoutPurchases"
+    },
+    {
+      "suite": "PuzzleCoreTests.EconomyTests",
+      "test": "testCorruptV3AndFutureSavesAreRejectedWithoutOverwrite"
+    },
+    {
+      "suite": "PuzzleCoreTests.EconomyTests",
+      "test": "testCurrencyAwardsSpendingAndLifetimeTotalsAreSeparate"
+    },
+    {
+      "suite": "PuzzleCoreTests.EconomyTests",
+      "test": "testInsufficientInvalidAndOverflowAmountsNeverMutateLedger"
+    },
+    {
+      "suite": "PuzzleCoreTests.EconomyTests",
+      "test": "testInsufficientRestorationFundsNeverSpendOrPlaceDecoration"
+    },
+    {
+      "suite": "PuzzleCoreTests.EconomyTests",
+      "test": "testReceiptTracksCoinsStarsBonusesAndNoReplayFarm"
+    },
+    {
+      "suite": "PuzzleCoreTests.EconomyTests",
+      "test": "testRestorationRequirementsInsufficientCoinsAndDuplicateBuild"
+    },
+    {
+      "suite": "PuzzleCoreTests.EconomyTests",
+      "test": "testTransactionsAreIdempotentAndConflictsCannotChangeBalances"
+    },
+    {
+      "suite": "PuzzleCoreTests.EconomyTests",
+      "test": "testV2MigrationPreservesBalancesAndPreventsRetroactiveBonuses"
+    },
+    {
+      "suite": "PuzzleCoreTests.EconomyTests",
+      "test": "testV3SaveRestartsRetainSpentBalancesIslandAndMilestoneIDs"
+    },
+    {
+      "suite": "PuzzleCoreTests.LevelProgressTests",
+      "test": "testCatalogRejectsMalformedAndInvalidLevels"
+    },
+    {
+      "suite": "PuzzleCoreTests.LevelProgressTests",
+      "test": "testCompletionUnlocksNextLevelAndRewardsOnlyOnce"
+    },
+    {
+      "suite": "PuzzleCoreTests.LevelProgressTests",
+      "test": "testProgressPersistsAndCorruptionIsReported"
+    },
+    {
+      "suite": "PuzzleCoreTests.LevelProgressTests",
+      "test": "testProgressRejectsLockedAndMismatchedSessions"
+    },
+    {
+      "suite": "PuzzleCoreTests.LevelProgressTests",
+      "test": "testSolverReportsSolvedUnsolvableAndBudgetExhaustion"
+    },
+    {
+      "suite": "PuzzleCoreTests.PurchaseProgressTests",
+      "test": "testConsumablesAreAtomicIdempotentAndPersistAfterRestart"
+    },
+    {
+      "suite": "PuzzleCoreTests.PurchaseProgressTests",
+      "test": "testReconciliationRemovesRevokedThemeAndHintsNeverGoNegative"
+    },
+    {
+      "suite": "PuzzleCoreTests.PurchaseProgressTests",
+      "test": "testStarterRewardsNeverRepeatOnRestoreRefundOrRepurchase"
+    },
+    {
+      "suite": "PuzzleCoreTests.PurchaseProgressTests",
+      "test": "testVersionThreeMigrationPreservesWalletAndRequiresV4Journal"
+    },
+    {
+      "suite": "PuzzleCoreTests.PuzzleRulesTests",
+      "test": "testAllHundredBundledLevelsHaveLegalSolutions"
+    },
+    {
+      "suite": "PuzzleCoreTests.PuzzleRulesTests",
+      "test": "testIllegalMovesDoNotMutateState"
+    },
+    {
+      "suite": "PuzzleCoreTests.PuzzleRulesTests",
+      "test": "testMovesOneTopPieceToEmptyOrMatchingContainer"
+    },
+    {
+      "suite": "PuzzleCoreTests.PuzzleRulesTests",
+      "test": "testOnlyFullUniformContainersCountAsSolved"
+    },
+    {
+      "suite": "PuzzleCoreTests.PuzzleRulesTests",
+      "test": "testUndoAndRestartRestoreExactStateAndMoveCount"
+    },
+    {
+      "suite": "SortScapeTests.AdCoordinatorTests",
+      "test": "testConcurrentPresentationAndBackgroundCannotGrantAdditionalRewards"
+    },
+    {
+      "suite": "SortScapeTests.AdCoordinatorTests",
+      "test": "testConsentDeniedErrorWithdrawnAndDisabledNeverInitializeOrLoad"
+    },
+    {
+      "suite": "SortScapeTests.AdCoordinatorTests",
+      "test": "testEarnedRewardDuplicateCallbacksAndRestartNeverDuplicateTokens"
+    },
+    {
+      "suite": "SortScapeTests.AdCoordinatorTests",
+      "test": "testInterstitialOnlyCompletedTransitionAfterFirstSessionAndNeverForRemoveAds"
+    },
+    {
+      "suite": "SortScapeTests.AdCoordinatorTests",
+      "test": "testLinkedSDKUsesSampleAppAndDelayedMeasurementWithoutATTPrompt"
+    },
+    {
+      "suite": "SortScapeTests.AdCoordinatorTests",
+      "test": "testLoadFailureDismissalAndPresentationFailureGrantNothing"
+    },
+    {
+      "suite": "SortScapeTests.AdCoordinatorTests",
+      "test": "testLocalAnalyticsContainNoIDsAndValidateRevenue"
+    },
+    {
+      "suite": "SortScapeTests.AdCoordinatorTests",
+      "test": "testOfflineGameRemainsPlayableWithNoAdServiceAvailability"
+    },
+    {
+      "suite": "SortScapeTests.AdCoordinatorTests",
+      "test": "testOptOutWhileConsentIsInFlightNeverInitializesSDK"
+    },
+    {
+      "suite": "SortScapeTests.GameModelTests",
+      "test": "testHintSelectsLegalSourceWithoutMovingPieces"
+    },
+    {
+      "suite": "SortScapeTests.GameModelTests",
+      "test": "testInvalidMoveLeavesHistoryAndSelectionIntact"
+    },
+    {
+      "suite": "SortScapeTests.GameModelTests",
+      "test": "testPaidAssistChargesOnlyForAValidCurrentMove"
+    },
+    {
+      "suite": "SortScapeTests.GameModelTests",
+      "test": "testPauseSettlesAnimationAndResumePreservesBoard"
+    },
+    {
+      "suite": "SortScapeTests.GameModelTests",
+      "test": "testPausedHintCannotApplyStaleResult"
+    },
+    {
+      "suite": "SortScapeTests.GameModelTests",
+      "test": "testRapidTapsAndCommandsCannotCorruptAnimatingMove"
+    },
+    {
+      "suite": "SortScapeTests.GameModelTests",
+      "test": "testReducedMotionAndCompletionUndoRestart"
+    },
+    {
+      "suite": "SortScapeTests.GameModelTests",
+      "test": "testRepresentativeTierBoardsAnimateCompleteUndoAndRestart"
+    },
+    {
+      "suite": "SortScapeTests.GameModelTests",
+      "test": "testRewardedRewindPreservesNormalUndoAndNeverSpendsOnInvalidState"
+    },
+    {
+      "suite": "SortScapeTests.ProgressModelTests",
+      "test": "testCoordinatorRetainsEarnedRewardUntilSaveRetrySucceeds"
+    },
+    {
+      "suite": "SortScapeTests.ProgressModelTests",
+      "test": "testEarnedAdRewardSaveFailureRetriesWithoutDuplicateDelivery"
+    },
+    {
+      "suite": "SortScapeTests.ProgressModelTests",
+      "test": "testFailedConstructionSaveRollsBackBothWalletAndIsland"
+    },
+    {
+      "suite": "SortScapeTests.ProgressModelTests",
+      "test": "testFailedRewardSaveDoesNotPublishAndCanRetryExactlyOnce"
+    },
+    {
+      "suite": "SortScapeTests.ProgressModelTests",
+      "test": "testFreshInjectedModelRetainsWalletStarsAndRestoration"
+    },
+    {
+      "suite": "SortScapeTests.ProgressModelTests",
+      "test": "testPurchaseAndHintSaveFailuresNeverPublishPartialFulfillment"
+    },
+    {
+      "suite": "SortScapeTests.PuzzleCheckpointTests",
+      "test": "testInvalidMoveJournalDoesNotReplaceSaveOnRead"
+    },
+    {
+      "suite": "SortScapeTests.PuzzleCheckpointTests",
+      "test": "testMoveIsRecoverableBeforeAnimationFinishesAndUndoPersists"
+    },
+    {
+      "suite": "SortScapeTests.PuzzleCheckpointTests",
+      "test": "testSolvedCheckpointCanBeRetriedUntilRewardsAreCommitted"
+    },
+    {
+      "suite": "SortScapeTests.StoreKitPurchaseTests",
+      "test": "testInterruptedDeliveryRetriesAfterFailedSaveAndRestart"
+    },
+    {
+      "suite": "SortScapeTests.StoreKitPurchaseTests",
+      "test": "testPendingApprovalDeliversViaUpdatesOnlyAfterApproval"
+    },
+    {
+      "suite": "SortScapeTests.StoreKitPurchaseTests",
+      "test": "testRealStoreKitProductsAndSuccessfulConsumablesPersistExactlyOnce"
+    },
+    {
+      "suite": "SortScapeTests.StoreKitPurchaseTests",
+      "test": "testRefundRevokesThemeAndRemoveAdsWithoutNegativeBalances"
+    },
+    {
+      "suite": "SortScapeTests.StoreKitPurchaseTests",
+      "test": "testRestoreReconcilesNonConsumablesAndStarterRewardsDoNotRepeat"
+    },
+    {
+      "suite": "SortScapeTests.StoreKitPurchaseTests",
+      "test": "testUnverifiedTransactionNeverGrantsOrFinishes"
+    },
+    {
+      "suite": "SortScapeTests.StoreKitPurchaseTests",
+      "test": "testUserCancellationAndFailureGrantNothing"
+    },
+    {
+      "suite": "SortScapeTests.TelemetryTests",
+      "test": "testAttemptTimingPauseRestartCompletionAndDuplicateCallbacks"
+    },
+    {
+      "suite": "SortScapeTests.TelemetryTests",
+      "test": "testForegroundSessionsAreIdempotentAndExcludeBackground"
+    },
+    {
+      "suite": "SortScapeTests.TelemetryTests",
+      "test": "testFullBoardRebuildReferencePerformance"
+    },
+    {
+      "suite": "SortScapeTests.TelemetryTests",
+      "test": "testImportedRestoredEntitlementNeverReportsNewPurchase"
+    },
+    {
+      "suite": "SortScapeTests.TelemetryTests",
+      "test": "testOptInMidAttemptNeverBackfillsEarlierTimeOrHints"
+    },
+    {
+      "suite": "SortScapeTests.TelemetryTests",
+      "test": "testPrivacyDefaultsOptOutAndIndependentDiagnostics"
+    },
+    {
+      "suite": "SortScapeTests.TelemetryTests",
+      "test": "testRenderedSceneFrameCadence"
+    },
+    {
+      "suite": "SortScapeTests.TelemetryTests",
+      "test": "testRewardedTelemetryUsesEarnedCallbackAndRevenueIsNeverFabricated"
+    },
+    {
+      "suite": "SortScapeTests.TelemetryTests",
+      "test": "testSavedPurchasesCurrencyAndRestartNeverDuplicateAndFailedSaveEmitsNothing"
+    },
+    {
+      "suite": "SortScapeTests.TelemetryTests",
+      "test": "testSchemaRejectsInvalidTypesAndReservedAutomaticNamesAreAbsent"
+    },
+    {
+      "suite": "SortScapeTests.TelemetryTests",
+      "test": "testSelectionRenderingPerformance"
+    },
+    {
+      "suite": "SortScapeTests.TelemetryTests",
+      "test": "testSelectionUpdatesPreservePieceNodesAndResizeRedraws"
+    },
+    {
+      "suite": "SortScapeTests.TelemetryTests",
+      "test": "testUnavailableBackendDropsEventsAndOneShotKeysDeduplicate"
+    },
+    {
+      "suite": "SortScapeUITests.AdvertisingUITests",
+      "test": "testOptionalRewindTokenWorksWithoutChangingFreeUndo"
+    },
+    {
+      "suite": "SortScapeUITests.AdvertisingUITests",
+      "test": "testRewardHintConsentDescriptionCancelDuplicateAndRelaunch"
+    },
+    {
+      "suite": "SortScapeUITests.AdvertisingUITests",
+      "test": "testRewardedBonusOnceAndNextLevelNavigation"
+    },
+    {
+      "suite": "SortScapeUITests.AdvertisingUITests",
+      "test": "testUnavailableAndPrivacyDeniedAdsNeverBlockOfflineGameplay"
+    },
+    {
+      "suite": "SortScapeUITests.PerformanceUITests",
+      "test": "testAnalyticsPrivacyChoicesAndSortingGuideSurviveRelaunch"
+    },
+    {
+      "suite": "SortScapeUITests.PerformanceUITests",
+      "test": "testForegroundLaunchPerformance"
+    },
+    {
+      "suite": "SortScapeUITests.ProgressionUITests",
+      "test": "testAllTenDecorationsCanBeBuiltWithEarnedCoins"
+    },
+    {
+      "suite": "SortScapeUITests.ProgressionUITests",
+      "test": "testInsufficientIslandFundsCannotChangeBalance"
+    },
+    {
+      "suite": "SortScapeUITests.ProgressionUITests",
+      "test": "testIslandConfirmationSpendingAndRestartPersistence"
+    },
+    {
+      "suite": "SortScapeUITests.ProgressionUITests",
+      "test": "testLargeTextAndAccessibleVessels"
+    },
+    {
+      "suite": "SortScapeUITests.ProgressionUITests",
+      "test": "testPauseSettingsHintsAndBackgroundResume"
+    },
+    {
+      "suite": "SortScapeUITests.ProgressionUITests",
+      "test": "testRepresentativeDifficultyTiersAndStarReplay"
+    },
+    {
+      "suite": "SortScapeUITests.ProgressionUITests",
+      "test": "testSolveRewardUnlockAndRelaunchPersistence"
+    },
+    {
+      "suite": "SortScapeUITests.ProgressionUITests",
+      "test": "testUnfinishedBoardAndUndoRecoverAfterTermination"
+    },
+    {
+      "suite": "SortScapeUITests.StoreUITests",
+      "test": "testLocalStorePurchasesAndHintInventorySurviveRelaunch"
+    }
+  ]
+}
