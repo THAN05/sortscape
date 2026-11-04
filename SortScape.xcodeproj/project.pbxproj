@@ -1,0 +1,1178 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		007307B02D6432F2850A0076 /* PuzzleCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 79F1D3ACC8E688957AD12F54 /* PuzzleCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		00F878787BD45CAE4FC3B223 /* TelemetrySettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3F354A62C0022B83F4FB13 /* TelemetrySettings.swift */; };
+		04842523C59CD4627E5E6971 /* PuzzleCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79F1D3ACC8E688957AD12F54 /* PuzzleCore.framework */; };
+		069AAD5A74455FA3A82E89CB /* AdService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4764636F394ACB248FDD48 /* AdService.swift */; };
+		092232DA01DD0E24F519AFD9 /* CampaignValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601AF12D0F2CDEE329CE45D9 /* CampaignValidator.swift */; };
+		0A40F1E5BF894F6462104136 /* beginner.json in Resources */ = {isa = PBXBuildFile; fileRef = FFF3FAE06BDD75F729C72ADD /* beginner.json */; };
+		107FF39EABCB24B743249605 /* PuzzleRulesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F17F874B1B713CF97E9DC86 /* PuzzleRulesTests.swift */; };
+		12B8A164E808BE6BE5D117B5 /* complete.wav in Resources */ = {isa = PBXBuildFile; fileRef = A841A462ACDC89BC16A51E86 /* complete.wav */; };
+		1444419037CDED94CFE25815 /* ProgressModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49847401B4BB020D1577D3C /* ProgressModelTests.swift */; };
+		19F74B639269993A12B739DA /* FirebaseAnalyticsCore in Frameworks */ = {isa = PBXBuildFile; productRef = F38ED4B89AE3E686E1A953D7 /* FirebaseAnalyticsCore */; };
+		1E7B6F7476A47409C80151AE /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = DBB843C2C889501B27E762F4 /* PrivacyInfo.xcprivacy */; };
+		1FAABA9FAA03D16417D5D98F /* PlayerProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE513C3F317D792EBD4791A /* PlayerProgress.swift */; };
+		202DA5A5AD78564D454A82B7 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 096FFD9AB71246BD1FD68D80 /* StoreKit.framework */; };
+		220909584FBD5A5CA9F1537E /* ProgressionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB521D66968F65D7E6D30F70 /* ProgressionUITests.swift */; };
+		2B0EDA17039B3B01038AAC28 /* Telemetry.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD12F51427AD6097E7428E1 /* Telemetry.swift */; };
+		2C5A3DD38C65DBFC0B6C5C5C /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = F7363FC3FF4A4A07FA913AD8 /* GoogleMobileAds */; };
+		2D6B51CC36890C46D699736A /* PuzzleSolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC272D56EE6FBD64E693745 /* PuzzleSolver.swift */; };
+		2DE794D6C6E7FD79C99036A6 /* PuzzleScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FD453E1C8E4CB2F44823D8 /* PuzzleScene.swift */; };
+		2E67CFAED00AD8E7B44109A8 /* PuzzleCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79F1D3ACC8E688957AD12F54 /* PuzzleCore.framework */; };
+		2FAB3781F3E76C6428BFB7A1 /* invalid.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0C3E24CC358E48BFAFF8FF69 /* invalid.wav */; };
+		308990FAC6A9E43665D3255F /* SortScapeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C3E6D7E5DF0640BF3C3003 /* SortScapeApp.swift */; };
+		31B7B5EC44282E163C361CCA /* CampaignTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADAB423FA9485BFA0E96E82 /* CampaignTests.swift */; };
+		3CAA4E1211B62028FACDB1A0 /* EconomyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5052F9818D8CB9B6FDABE7 /* EconomyManager.swift */; };
+		3D969897A52C62E5A8DB5898 /* PurchaseState.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BC4B65690D106D15D40465 /* PurchaseState.swift */; };
+		3E1DA5755278D5FA28A485FC /* IslandScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B78CED76FCF6AAEB3E2661 /* IslandScene.swift */; };
+		47E44C9C90DDF242E36A94B7 /* FirebaseAnalyticsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD972B54B19C069FC0DA363 /* FirebaseAnalyticsService.swift */; };
+		4A9E5466CEA5C075EFB6AEFC /* AdPrivacyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD9B9C12B82430714D2B97B /* AdPrivacyView.swift */; };
+		4F27E1D094AE361C5753CE26 /* SortScape.storekit in Resources */ = {isa = PBXBuildFile; fileRef = F5DF023FF84285680AABC3CA /* SortScape.storekit */; };
+		500D0290689871FE63504D9D /* AdCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E781BB1AE2F401A70B12C9 /* AdCoordinator.swift */; };
+		53451832015C8ACAF41DA91C /* EconomyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E044DBF544E6B692B69EB9 /* EconomyTests.swift */; };
+		5376DDF1FB32E392956AC787 /* PuzzleCheckpointStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7267BA18E44F11ED8E5FB9 /* PuzzleCheckpointStore.swift */; };
+		54D160541C8879D84450184D /* campaign.json in Resources */ = {isa = PBXBuildFile; fileRef = D0368FBA50DBA358571BFB72 /* campaign.json */; };
+		5CC5E9EEC76ABD9D394DD2CD /* LevelProgressTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6453BE857414A8F1F8AF28 /* LevelProgressTests.swift */; };
+		62A83478E45F36A77383F39A /* StoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B1500983462208E688C4EA /* StoreUITests.swift */; };
+		633E22B2DD77978BB581F1C2 /* move.wav in Resources */ = {isa = PBXBuildFile; fileRef = 00D7B2B0729D69394336DD61 /* move.wav */; };
+		635776AD9E662D3B2C52F7D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7943087C23C507F759A217E7 /* Assets.xcassets */; };
+		695BF780A6B73E140CE45731 /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DB243FFC77E53A1BAF255F /* GameModel.swift */; };
+		6D54D306C2A14A59E8DB7249 /* TelemetryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F27FE37F6F3ECD7547A0317 /* TelemetryTests.swift */; };
+		720381D3AEB78CEA148173E4 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522B0E7028FFA1161CDC16CD /* Theme.swift */; };
+		72B957E8AFE6CA0A4681E150 /* AdvertisingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64757C74C7ED3054B2C64804 /* AdvertisingTests.swift */; };
+		74838D3A839C139B57EEA488 /* SortScape.storekit in Resources */ = {isa = PBXBuildFile; fileRef = F5DF023FF84285680AABC3CA /* SortScape.storekit */; };
+		76E6450A618738C222A7A480 /* StoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853CED3032CBE31D6F2AB327 /* StoreView.swift */; };
+		7BD0A82A1CAF9C4A1607009C /* LevelGeneration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064DA7101CCC9810ED5C8FF3 /* LevelGeneration.swift */; };
+		7E8333FE02B39D1486B23E11 /* AdvertisingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E288425388D688CAA0783F2 /* AdvertisingUITests.swift */; };
+		82C42E8204F45E3E196A4672 /* PuzzleCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 79F1D3ACC8E688957AD12F54 /* PuzzleCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8EDBCE77931FCD351BC865BD /* Feedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED5A44D248B80B6A8A0E721 /* Feedback.swift */; };
+		967EA4293A7A6268E3404311 /* PuzzleCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79F1D3ACC8E688957AD12F54 /* PuzzleCore.framework */; };
+		9A6D7F92B843C91D5D88BDC1 /* GameModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9897E9C4FE2E7F25585BAA8D /* GameModelTests.swift */; };
+		A63B06EFCAEBD9210AB31A62 /* PerformanceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07045A9430F2A6C84CFBE63 /* PerformanceUITests.swift */; };
+		A701616BDA62C6C754ECFA58 /* Puzzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8F741EABEB8F038E5ACE09 /* Puzzle.swift */; };
+		A89EC9586B5BCF676F7DB326 /* GoogleAdMobService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65445F1C932DC5FC7696052D /* GoogleAdMobService.swift */; };
+		AE594936F3726EA4F2F171D5 /* PuzzleCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 79F1D3ACC8E688957AD12F54 /* PuzzleCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B039A1A5A2DFA78D2E2AA7E0 /* PuzzleCheckpointTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2459B3C63B8B7EC36A01BDE7 /* PuzzleCheckpointTests.swift */; };
+		B5A656BFBABEDD711C94E612 /* AdCoordinatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A8E519A1CB87A6245528D7 /* AdCoordinatorTests.swift */; };
+		BFD51D3E0045CD2516EF1197 /* CampaignProgressTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A944BD35BC04577D172EBAC7 /* CampaignProgressTests.swift */; };
+		BFF92798BF1D5C42FB829D5D /* StoreKitPurchaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6E662F115EA7303D1ECB0A /* StoreKitPurchaseTests.swift */; };
+		C40D6357A54C309C2DEA2755 /* StoreKitPurchaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6FF84F8D9929E406BB8EBA /* StoreKitPurchaseManager.swift */; };
+		C5E2891F22C7005816FD84CF /* PurchaseProgressTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A6BE07275FA66E031DBDA9 /* PurchaseProgressTests.swift */; };
+		C94854A578C8AF7A72B4A70A /* ProgressModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5DFD3C1284C844CB3D5401 /* ProgressModel.swift */; };
+		D2A05578EAEA27753F1C8E35 /* StoreProducts.json in Resources */ = {isa = PBXBuildFile; fileRef = 6E8E6375F39731CFFF56FAD6 /* StoreProducts.json */; };
+		D520D7BD65454E0B220734BD /* Levels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070EB23670917E7431932612 /* Levels.swift */; };
+		D53BDCA902FBE98420980C68 /* IslandRestoration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9A2A1FE450F5B3D2A68188 /* IslandRestoration.swift */; };
+		D966EF1379656A537566A27B /* AdAnalytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4983EDE45EE0FBE77DE64C9F /* AdAnalytics.swift */; };
+		E241183292B2541CC6FF192D /* IslandView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE00818E2EF2F73E0CC31B6 /* IslandView.swift */; };
+		EC5AE9631239FF9033D6F908 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8795EEB371C67DBD48E09F /* GameView.swift */; };
+		EDC8811D343AE6B11FD1A29F /* AdRewards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4407FEFEB41BA4534401AD /* AdRewards.swift */; };
+		EFB2C2450F89DF247B777D19 /* GoogleUserMessagingPlatform in Frameworks */ = {isa = PBXBuildFile; productRef = 4E217C3E231EFD166AEE4F65 /* GoogleUserMessagingPlatform */; };
+		F3E31B7D5F87C82C1A9AD4FD /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = DAB7E769502DADDDFD3398FB /* FirebaseCrashlytics */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		409CF7291016C061290F3428 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53396715E451F43F28AFB3A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6E28BC0CB252577DD56B62E;
+			remoteInfo = PuzzleCore;
+		};
+		41EBF3B70AD195962F438D64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53396715E451F43F28AFB3A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6E28BC0CB252577DD56B62E;
+			remoteInfo = PuzzleCore;
+		};
+		7A260923788E5B3BB2A9470D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53396715E451F43F28AFB3A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CCAAE2B5880A1648601B374;
+			remoteInfo = SortScape;
+		};
+		909654FFD6D768CD971F6818 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53396715E451F43F28AFB3A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CCAAE2B5880A1648601B374;
+			remoteInfo = SortScape;
+		};
+		9F1C4D46F59E0677A768790B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53396715E451F43F28AFB3A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6E28BC0CB252577DD56B62E;
+			remoteInfo = PuzzleCore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1527DD3F2856585D02C31AB8 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				AE594936F3726EA4F2F171D5 /* PuzzleCore.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C1A82D03AFBB1D663CC02CC /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				82C42E8204F45E3E196A4672 /* PuzzleCore.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7F4C71CD25AB2A788648E86 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				007307B02D6432F2850A0076 /* PuzzleCore.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		00D7B2B0729D69394336DD61 /* move.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = move.wav; sourceTree = "<group>"; };
+		064DA7101CCC9810ED5C8FF3 /* LevelGeneration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelGeneration.swift; sourceTree = "<group>"; };
+		070EB23670917E7431932612 /* Levels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Levels.swift; sourceTree = "<group>"; };
+		096FFD9AB71246BD1FD68D80 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		0BD972B54B19C069FC0DA363 /* FirebaseAnalyticsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAnalyticsService.swift; sourceTree = "<group>"; };
+		0C3E24CC358E48BFAFF8FF69 /* invalid.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = invalid.wav; sourceTree = "<group>"; };
+		12B1500983462208E688C4EA /* StoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreUITests.swift; sourceTree = "<group>"; };
+		1E03E9E25506DCEC27BFC47C /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		1E4407FEFEB41BA4534401AD /* AdRewards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdRewards.swift; sourceTree = "<group>"; };
+		1ECBFDD083EDBC05B0F5462F /* SortScapeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SortScapeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F27FE37F6F3ECD7547A0317 /* TelemetryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelemetryTests.swift; sourceTree = "<group>"; };
+		2459B3C63B8B7EC36A01BDE7 /* PuzzleCheckpointTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleCheckpointTests.swift; sourceTree = "<group>"; };
+		25E044DBF544E6B692B69EB9 /* EconomyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EconomyTests.swift; sourceTree = "<group>"; };
+		2F17F874B1B713CF97E9DC86 /* PuzzleRulesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleRulesTests.swift; sourceTree = "<group>"; };
+		42A8E519A1CB87A6245528D7 /* AdCoordinatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdCoordinatorTests.swift; sourceTree = "<group>"; };
+		43C3E6D7E5DF0640BF3C3003 /* SortScapeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortScapeApp.swift; sourceTree = "<group>"; };
+		4826F8A806576C1DDFC12B44 /* PuzzleCoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PuzzleCoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4983EDE45EE0FBE77DE64C9F /* AdAnalytics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdAnalytics.swift; sourceTree = "<group>"; };
+		4AE00818E2EF2F73E0CC31B6 /* IslandView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IslandView.swift; sourceTree = "<group>"; };
+		4E6453BE857414A8F1F8AF28 /* LevelProgressTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelProgressTests.swift; sourceTree = "<group>"; };
+		522B0E7028FFA1161CDC16CD /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		53DB243FFC77E53A1BAF255F /* GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
+		56FD453E1C8E4CB2F44823D8 /* PuzzleScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleScene.swift; sourceTree = "<group>"; };
+		58B78CED76FCF6AAEB3E2661 /* IslandScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IslandScene.swift; sourceTree = "<group>"; };
+		5C4764636F394ACB248FDD48 /* AdService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdService.swift; sourceTree = "<group>"; };
+		5C9A2A1FE450F5B3D2A68188 /* IslandRestoration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IslandRestoration.swift; sourceTree = "<group>"; };
+		5E6E662F115EA7303D1ECB0A /* StoreKitPurchaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreKitPurchaseTests.swift; sourceTree = "<group>"; };
+		601AF12D0F2CDEE329CE45D9 /* CampaignValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampaignValidator.swift; sourceTree = "<group>"; };
+		64757C74C7ED3054B2C64804 /* AdvertisingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvertisingTests.swift; sourceTree = "<group>"; };
+		65445F1C932DC5FC7696052D /* GoogleAdMobService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleAdMobService.swift; sourceTree = "<group>"; };
+		6CD9B9C12B82430714D2B97B /* AdPrivacyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdPrivacyView.swift; sourceTree = "<group>"; };
+		6D8F741EABEB8F038E5ACE09 /* Puzzle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle.swift; sourceTree = "<group>"; };
+		6E8E6375F39731CFFF56FAD6 /* StoreProducts.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = StoreProducts.json; sourceTree = "<group>"; };
+		6ED5A44D248B80B6A8A0E721 /* Feedback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feedback.swift; sourceTree = "<group>"; };
+		70A6BE07275FA66E031DBDA9 /* PurchaseProgressTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseProgressTests.swift; sourceTree = "<group>"; };
+		7943087C23C507F759A217E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		79F1D3ACC8E688957AD12F54 /* PuzzleCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PuzzleCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FC272D56EE6FBD64E693745 /* PuzzleSolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleSolver.swift; sourceTree = "<group>"; };
+		853CED3032CBE31D6F2AB327 /* StoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreView.swift; sourceTree = "<group>"; };
+		8B8795EEB371C67DBD48E09F /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		8CB3A3833FD392E064D12F10 /* Ads.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Ads.xcconfig; sourceTree = "<group>"; };
+		8F3F354A62C0022B83F4FB13 /* TelemetrySettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelemetrySettings.swift; sourceTree = "<group>"; };
+		9897E9C4FE2E7F25585BAA8D /* GameModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModelTests.swift; sourceTree = "<group>"; };
+		9C6FF84F8D9929E406BB8EBA /* StoreKitPurchaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreKitPurchaseManager.swift; sourceTree = "<group>"; };
+		9E288425388D688CAA0783F2 /* AdvertisingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvertisingUITests.swift; sourceTree = "<group>"; };
+		A841A462ACDC89BC16A51E86 /* complete.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = complete.wav; sourceTree = "<group>"; };
+		A944BD35BC04577D172EBAC7 /* CampaignProgressTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampaignProgressTests.swift; sourceTree = "<group>"; };
+		AAD12F51427AD6097E7428E1 /* Telemetry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Telemetry.swift; sourceTree = "<group>"; };
+		AC5DFD3C1284C844CB3D5401 /* ProgressModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressModel.swift; sourceTree = "<group>"; };
+		B07045A9430F2A6C84CFBE63 /* PerformanceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerformanceUITests.swift; sourceTree = "<group>"; };
+		BADAB423FA9485BFA0E96E82 /* CampaignTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampaignTests.swift; sourceTree = "<group>"; };
+		BBE513C3F317D792EBD4791A /* PlayerProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerProgress.swift; sourceTree = "<group>"; };
+		BC7267BA18E44F11ED8E5FB9 /* PuzzleCheckpointStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleCheckpointStore.swift; sourceTree = "<group>"; };
+		BD000A21CDA5BD8D1D0AD5FC /* SortScape.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SortScape.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4E781BB1AE2F401A70B12C9 /* AdCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdCoordinator.swift; sourceTree = "<group>"; };
+		CB521D66968F65D7E6D30F70 /* ProgressionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressionUITests.swift; sourceTree = "<group>"; };
+		CE94DD86A82163793DF64DA1 /* SortScapeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SortScapeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0368FBA50DBA358571BFB72 /* campaign.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = campaign.json; sourceTree = "<group>"; };
+		DBB843C2C889501B27E762F4 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		DD5052F9818D8CB9B6FDABE7 /* EconomyManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EconomyManager.swift; sourceTree = "<group>"; };
+		E4BC4B65690D106D15D40465 /* PurchaseState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseState.swift; sourceTree = "<group>"; };
+		F49847401B4BB020D1577D3C /* ProgressModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressModelTests.swift; sourceTree = "<group>"; };
+		F5DF023FF84285680AABC3CA /* SortScape.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = SortScape.storekit; sourceTree = "<group>"; };
+		FFF3FAE06BDD75F729C72ADD /* beginner.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = beginner.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFC0059A66191406483E12C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E67CFAED00AD8E7B44109A8 /* PuzzleCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7A2B407D57FD99B4AB8B704 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04842523C59CD4627E5E6971 /* PuzzleCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6395A3D655A8C94EF13FEF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				967EA4293A7A6268E3404311 /* PuzzleCore.framework in Frameworks */,
+				19F74B639269993A12B739DA /* FirebaseAnalyticsCore in Frameworks */,
+				F3E31B7D5F87C82C1A9AD4FD /* FirebaseCrashlytics in Frameworks */,
+				202DA5A5AD78564D454A82B7 /* StoreKit.framework in Frameworks */,
+				2C5A3DD38C65DBFC0B6C5C5C /* GoogleMobileAds in Frameworks */,
+				EFB2C2450F89DF247B777D19 /* GoogleUserMessagingPlatform in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C90D308B6B8D408A40A37E9 /* PuzzleCore */ = {
+			isa = PBXGroup;
+			children = (
+				1E4407FEFEB41BA4534401AD /* AdRewards.swift */,
+				601AF12D0F2CDEE329CE45D9 /* CampaignValidator.swift */,
+				DD5052F9818D8CB9B6FDABE7 /* EconomyManager.swift */,
+				5C9A2A1FE450F5B3D2A68188 /* IslandRestoration.swift */,
+				064DA7101CCC9810ED5C8FF3 /* LevelGeneration.swift */,
+				070EB23670917E7431932612 /* Levels.swift */,
+				BBE513C3F317D792EBD4791A /* PlayerProgress.swift */,
+				E4BC4B65690D106D15D40465 /* PurchaseState.swift */,
+				6D8F741EABEB8F038E5ACE09 /* Puzzle.swift */,
+				7FC272D56EE6FBD64E693745 /* PuzzleSolver.swift */,
+				62FDED9F29F0AEC9C3AAB114 /* Resources */,
+			);
+			name = PuzzleCore;
+			path = Sources/PuzzleCore;
+			sourceTree = "<group>";
+		};
+		19070BF51B50D0D49BC4F7AA /* SortScapeTests */ = {
+			isa = PBXGroup;
+			children = (
+				42A8E519A1CB87A6245528D7 /* AdCoordinatorTests.swift */,
+				9897E9C4FE2E7F25585BAA8D /* GameModelTests.swift */,
+				F49847401B4BB020D1577D3C /* ProgressModelTests.swift */,
+				2459B3C63B8B7EC36A01BDE7 /* PuzzleCheckpointTests.swift */,
+				5E6E662F115EA7303D1ECB0A /* StoreKitPurchaseTests.swift */,
+				1F27FE37F6F3ECD7547A0317 /* TelemetryTests.swift */,
+			);
+			name = SortScapeTests;
+			path = Tests/SortScapeTests;
+			sourceTree = "<group>";
+		};
+		19AA866D7C334628AE00D89A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A841A462ACDC89BC16A51E86 /* complete.wav */,
+				0C3E24CC358E48BFAFF8FF69 /* invalid.wav */,
+				00D7B2B0729D69394336DD61 /* move.wav */,
+				DBB843C2C889501B27E762F4 /* PrivacyInfo.xcprivacy */,
+				F5DF023FF84285680AABC3CA /* SortScape.storekit */,
+				6E8E6375F39731CFFF56FAD6 /* StoreProducts.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2B03FDA12C07C70655091D09 /* SortScapeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9E288425388D688CAA0783F2 /* AdvertisingUITests.swift */,
+				B07045A9430F2A6C84CFBE63 /* PerformanceUITests.swift */,
+				CB521D66968F65D7E6D30F70 /* ProgressionUITests.swift */,
+				12B1500983462208E688C4EA /* StoreUITests.swift */,
+			);
+			name = SortScapeUITests;
+			path = Tests/SortScapeUITests;
+			sourceTree = "<group>";
+		};
+		4096FFEFE3C9F01A74E5B87C /* PuzzleCoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				64757C74C7ED3054B2C64804 /* AdvertisingTests.swift */,
+				A944BD35BC04577D172EBAC7 /* CampaignProgressTests.swift */,
+				BADAB423FA9485BFA0E96E82 /* CampaignTests.swift */,
+				25E044DBF544E6B692B69EB9 /* EconomyTests.swift */,
+				4E6453BE857414A8F1F8AF28 /* LevelProgressTests.swift */,
+				70A6BE07275FA66E031DBDA9 /* PurchaseProgressTests.swift */,
+				2F17F874B1B713CF97E9DC86 /* PuzzleRulesTests.swift */,
+			);
+			name = PuzzleCoreTests;
+			path = Tests/PuzzleCoreTests;
+			sourceTree = "<group>";
+		};
+		4A03E7E050F72776E8DD1181 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				096FFD9AB71246BD1FD68D80 /* StoreKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		61DA3FDF69DB10089AE4BADF /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				8CB3A3833FD392E064D12F10 /* Ads.xcconfig */,
+				1E03E9E25506DCEC27BFC47C /* Release.xcconfig */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		62FDED9F29F0AEC9C3AAB114 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FFF3FAE06BDD75F729C72ADD /* beginner.json */,
+				D0368FBA50DBA358571BFB72 /* campaign.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		ADCAE9C05CA8819908692F15 /* SortScape */ = {
+			isa = PBXGroup;
+			children = (
+				4983EDE45EE0FBE77DE64C9F /* AdAnalytics.swift */,
+				C4E781BB1AE2F401A70B12C9 /* AdCoordinator.swift */,
+				6CD9B9C12B82430714D2B97B /* AdPrivacyView.swift */,
+				5C4764636F394ACB248FDD48 /* AdService.swift */,
+				7943087C23C507F759A217E7 /* Assets.xcassets */,
+				6ED5A44D248B80B6A8A0E721 /* Feedback.swift */,
+				0BD972B54B19C069FC0DA363 /* FirebaseAnalyticsService.swift */,
+				53DB243FFC77E53A1BAF255F /* GameModel.swift */,
+				8B8795EEB371C67DBD48E09F /* GameView.swift */,
+				65445F1C932DC5FC7696052D /* GoogleAdMobService.swift */,
+				58B78CED76FCF6AAEB3E2661 /* IslandScene.swift */,
+				4AE00818E2EF2F73E0CC31B6 /* IslandView.swift */,
+				AC5DFD3C1284C844CB3D5401 /* ProgressModel.swift */,
+				BC7267BA18E44F11ED8E5FB9 /* PuzzleCheckpointStore.swift */,
+				56FD453E1C8E4CB2F44823D8 /* PuzzleScene.swift */,
+				43C3E6D7E5DF0640BF3C3003 /* SortScapeApp.swift */,
+				9C6FF84F8D9929E406BB8EBA /* StoreKitPurchaseManager.swift */,
+				853CED3032CBE31D6F2AB327 /* StoreView.swift */,
+				AAD12F51427AD6097E7428E1 /* Telemetry.swift */,
+				8F3F354A62C0022B83F4FB13 /* TelemetrySettings.swift */,
+				522B0E7028FFA1161CDC16CD /* Theme.swift */,
+				19AA866D7C334628AE00D89A /* Resources */,
+			);
+			name = SortScape;
+			path = Sources/SortScape;
+			sourceTree = "<group>";
+		};
+		C473268B0226647A518B1A53 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79F1D3ACC8E688957AD12F54 /* PuzzleCore.framework */,
+				4826F8A806576C1DDFC12B44 /* PuzzleCoreTests.xctest */,
+				BD000A21CDA5BD8D1D0AD5FC /* SortScape.app */,
+				1ECBFDD083EDBC05B0F5462F /* SortScapeTests.xctest */,
+				CE94DD86A82163793DF64DA1 /* SortScapeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8793D7B976FBFBCC0DD662B = {
+			isa = PBXGroup;
+			children = (
+				61DA3FDF69DB10089AE4BADF /* Configuration */,
+				0C90D308B6B8D408A40A37E9 /* PuzzleCore */,
+				4096FFEFE3C9F01A74E5B87C /* PuzzleCoreTests */,
+				ADCAE9C05CA8819908692F15 /* SortScape */,
+				19070BF51B50D0D49BC4F7AA /* SortScapeTests */,
+				2B03FDA12C07C70655091D09 /* SortScapeUITests */,
+				4A03E7E050F72776E8DD1181 /* Frameworks */,
+				C473268B0226647A518B1A53 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E57B0B4711BA2A04200955D /* SortScapeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBB53F09D5857B4552955173 /* Build configuration list for PBXNativeTarget "SortScapeUITests" */;
+			buildPhases = (
+				088F52E93D67C85BE6E72C82 /* Sources */,
+				BD5D91E96632C70267970484 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9545F5C57C6AA4F9DE74F8D2 /* PBXTargetDependency */,
+			);
+			name = SortScapeUITests;
+			packageProductDependencies = (
+			);
+			productName = SortScapeUITests;
+			productReference = CE94DD86A82163793DF64DA1 /* SortScapeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		5CCAAE2B5880A1648601B374 /* SortScape */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C21A4C73DDEBEFD02187A938 /* Build configuration list for PBXNativeTarget "SortScape" */;
+			buildPhases = (
+				AFC44988CF9235B1D6AAD85F /* Sources */,
+				CD6E63236EBD066932194136 /* Resources */,
+				F6395A3D655A8C94EF13FEF4 /* Frameworks */,
+				3C1A82D03AFBB1D663CC02CC /* Embed Frameworks */,
+				0EB69E6C9DC2EB254F803365 /* Select Firebase environment */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19320C08076154BD3C056541 /* PBXTargetDependency */,
+			);
+			name = SortScape;
+			packageProductDependencies = (
+				F38ED4B89AE3E686E1A953D7 /* FirebaseAnalyticsCore */,
+				DAB7E769502DADDDFD3398FB /* FirebaseCrashlytics */,
+				F7363FC3FF4A4A07FA913AD8 /* GoogleMobileAds */,
+				4E217C3E231EFD166AEE4F65 /* GoogleUserMessagingPlatform */,
+			);
+			productName = SortScape;
+			productReference = BD000A21CDA5BD8D1D0AD5FC /* SortScape.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B189E95E7ABC9EB1E63D7606 /* PuzzleCoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38A6FAF6BE87D99BEF74C9F4 /* Build configuration list for PBXNativeTarget "PuzzleCoreTests" */;
+			buildPhases = (
+				AD24C630138E06278237FBDD /* Sources */,
+				C7A2B407D57FD99B4AB8B704 /* Frameworks */,
+				B7F4C71CD25AB2A788648E86 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8D4794E8B51DC24F05BE6CA /* PBXTargetDependency */,
+			);
+			name = PuzzleCoreTests;
+			packageProductDependencies = (
+			);
+			productName = PuzzleCoreTests;
+			productReference = 4826F8A806576C1DDFC12B44 /* PuzzleCoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B6E28BC0CB252577DD56B62E /* PuzzleCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24DB3E394B05F02D20738166 /* Build configuration list for PBXNativeTarget "PuzzleCore" */;
+			buildPhases = (
+				0F8B825D0F3B71D438221686 /* Sources */,
+				6A3020EA6F6B91CAF6DDEA0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PuzzleCore;
+			packageProductDependencies = (
+			);
+			productName = PuzzleCore;
+			productReference = 79F1D3ACC8E688957AD12F54 /* PuzzleCore.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F732F4C325A11D697836A096 /* SortScapeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CC27EF30BEC068BE4936DC2 /* Build configuration list for PBXNativeTarget "SortScapeTests" */;
+			buildPhases = (
+				1F869D4EE36C011D2BA82DCD /* Sources */,
+				363C18A3C2F455F1FAE0E638 /* Resources */,
+				BFC0059A66191406483E12C5 /* Frameworks */,
+				1527DD3F2856585D02C31AB8 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E59D6AFEFE0C03AE7D28B4B /* PBXTargetDependency */,
+				0BD4DF1A3BABE47CCD71109D /* PBXTargetDependency */,
+			);
+			name = SortScapeTests;
+			packageProductDependencies = (
+			);
+			productName = SortScapeTests;
+			productReference = 1ECBFDD083EDBC05B0F5462F /* SortScapeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53396715E451F43F28AFB3A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					1E57B0B4711BA2A04200955D = {
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5CCAAE2B5880A1648601B374;
+					};
+					5CCAAE2B5880A1648601B374 = {
+						ProvisioningStyle = Automatic;
+					};
+					B189E95E7ABC9EB1E63D7606 = {
+						ProvisioningStyle = Automatic;
+					};
+					B6E28BC0CB252577DD56B62E = {
+						ProvisioningStyle = Automatic;
+					};
+					F732F4C325A11D697836A096 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3695C1DDEA3A8614BA565575 /* Build configuration list for PBXProject "SortScape" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = F8793D7B976FBFBCC0DD662B;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				01C8887DCD0471FB058DD3E3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				9D89C8DC536FA0D6B44750F3 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */,
+				90DD1A2DC8124951FFFD671B /* XCRemoteSwiftPackageReference "swift-package-manager-google-user-messaging-platform" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C473268B0226647A518B1A53 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6E28BC0CB252577DD56B62E /* PuzzleCore */,
+				5CCAAE2B5880A1648601B374 /* SortScape */,
+				B189E95E7ABC9EB1E63D7606 /* PuzzleCoreTests */,
+				F732F4C325A11D697836A096 /* SortScapeTests */,
+				1E57B0B4711BA2A04200955D /* SortScapeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		363C18A3C2F455F1FAE0E638 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74838D3A839C139B57EEA488 /* SortScape.storekit in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A3020EA6F6B91CAF6DDEA0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A40F1E5BF894F6462104136 /* beginner.json in Resources */,
+				54D160541C8879D84450184D /* campaign.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD5D91E96632C70267970484 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F27E1D094AE361C5753CE26 /* SortScape.storekit in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD6E63236EBD066932194136 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				635776AD9E662D3B2C52F7D1 /* Assets.xcassets in Resources */,
+				1E7B6F7476A47409C80151AE /* PrivacyInfo.xcprivacy in Resources */,
+				D2A05578EAEA27753F1C8E35 /* StoreProducts.json in Resources */,
+				12B8A164E808BE6BE5D117B5 /* complete.wav in Resources */,
+				2FAB3781F3E76C6428BFB7A1 /* invalid.wav in Resources */,
+				633E22B2DD77978BB581F1C2 /* move.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0EB69E6C9DC2EB254F803365 /* Select Firebase environment */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Select Firebase environment";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -eu\ncase \"${TELEMETRY_ENVIRONMENT}\" in Development|Production) ;; *) echo \"error: Invalid telemetry environment\"; exit 1 ;; esac\ndestination=\"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}\"\nif [ \"$CONFIGURATION\" = Release ]; then\n  test \"$TELEMETRY_ENVIRONMENT\" = Production && test \"$ADS_ENABLED\" = NO || { echo \"error: Unsafe Release configuration\"; exit 1; }\n  rm -f \"${destination}/StoreProducts.json\"\nfi\nrm -f \"${destination}/GoogleService-Info-Development.plist\" \"${destination}/GoogleService-Info-Production.plist\"\nsource=\"${SRCROOT}/Sources/SortScape/Resources/Firebase/GoogleService-Info-${TELEMETRY_ENVIRONMENT}.plist\"\nif [ -f \"$source\" ]; then cp \"$source\" \"${destination}/GoogleService-Info-${TELEMETRY_ENVIRONMENT}.plist\"; fi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		088F52E93D67C85BE6E72C82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E8333FE02B39D1486B23E11 /* AdvertisingUITests.swift in Sources */,
+				A63B06EFCAEBD9210AB31A62 /* PerformanceUITests.swift in Sources */,
+				220909584FBD5A5CA9F1537E /* ProgressionUITests.swift in Sources */,
+				62A83478E45F36A77383F39A /* StoreUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F8B825D0F3B71D438221686 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDC8811D343AE6B11FD1A29F /* AdRewards.swift in Sources */,
+				092232DA01DD0E24F519AFD9 /* CampaignValidator.swift in Sources */,
+				3CAA4E1211B62028FACDB1A0 /* EconomyManager.swift in Sources */,
+				D53BDCA902FBE98420980C68 /* IslandRestoration.swift in Sources */,
+				7BD0A82A1CAF9C4A1607009C /* LevelGeneration.swift in Sources */,
+				D520D7BD65454E0B220734BD /* Levels.swift in Sources */,
+				1FAABA9FAA03D16417D5D98F /* PlayerProgress.swift in Sources */,
+				3D969897A52C62E5A8DB5898 /* PurchaseState.swift in Sources */,
+				A701616BDA62C6C754ECFA58 /* Puzzle.swift in Sources */,
+				2D6B51CC36890C46D699736A /* PuzzleSolver.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F869D4EE36C011D2BA82DCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5A656BFBABEDD711C94E612 /* AdCoordinatorTests.swift in Sources */,
+				9A6D7F92B843C91D5D88BDC1 /* GameModelTests.swift in Sources */,
+				1444419037CDED94CFE25815 /* ProgressModelTests.swift in Sources */,
+				B039A1A5A2DFA78D2E2AA7E0 /* PuzzleCheckpointTests.swift in Sources */,
+				BFF92798BF1D5C42FB829D5D /* StoreKitPurchaseTests.swift in Sources */,
+				6D54D306C2A14A59E8DB7249 /* TelemetryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD24C630138E06278237FBDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72B957E8AFE6CA0A4681E150 /* AdvertisingTests.swift in Sources */,
+				BFD51D3E0045CD2516EF1197 /* CampaignProgressTests.swift in Sources */,
+				31B7B5EC44282E163C361CCA /* CampaignTests.swift in Sources */,
+				53451832015C8ACAF41DA91C /* EconomyTests.swift in Sources */,
+				5CC5E9EEC76ABD9D394DD2CD /* LevelProgressTests.swift in Sources */,
+				C5E2891F22C7005816FD84CF /* PurchaseProgressTests.swift in Sources */,
+				107FF39EABCB24B743249605 /* PuzzleRulesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFC44988CF9235B1D6AAD85F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D966EF1379656A537566A27B /* AdAnalytics.swift in Sources */,
+				500D0290689871FE63504D9D /* AdCoordinator.swift in Sources */,
+				4A9E5466CEA5C075EFB6AEFC /* AdPrivacyView.swift in Sources */,
+				069AAD5A74455FA3A82E89CB /* AdService.swift in Sources */,
+				8EDBCE77931FCD351BC865BD /* Feedback.swift in Sources */,
+				47E44C9C90DDF242E36A94B7 /* FirebaseAnalyticsService.swift in Sources */,
+				695BF780A6B73E140CE45731 /* GameModel.swift in Sources */,
+				EC5AE9631239FF9033D6F908 /* GameView.swift in Sources */,
+				A89EC9586B5BCF676F7DB326 /* GoogleAdMobService.swift in Sources */,
+				3E1DA5755278D5FA28A485FC /* IslandScene.swift in Sources */,
+				E241183292B2541CC6FF192D /* IslandView.swift in Sources */,
+				C94854A578C8AF7A72B4A70A /* ProgressModel.swift in Sources */,
+				5376DDF1FB32E392956AC787 /* PuzzleCheckpointStore.swift in Sources */,
+				2DE794D6C6E7FD79C99036A6 /* PuzzleScene.swift in Sources */,
+				308990FAC6A9E43665D3255F /* SortScapeApp.swift in Sources */,
+				C40D6357A54C309C2DEA2755 /* StoreKitPurchaseManager.swift in Sources */,
+				76E6450A618738C222A7A480 /* StoreView.swift in Sources */,
+				2B0EDA17039B3B01038AAC28 /* Telemetry.swift in Sources */,
+				00F878787BD45CAE4FC3B223 /* TelemetrySettings.swift in Sources */,
+				720381D3AEB78CEA148173E4 /* Theme.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0BD4DF1A3BABE47CCD71109D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6E28BC0CB252577DD56B62E /* PuzzleCore */;
+			targetProxy = 409CF7291016C061290F3428 /* PBXContainerItemProxy */;
+		};
+		19320C08076154BD3C056541 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6E28BC0CB252577DD56B62E /* PuzzleCore */;
+			targetProxy = 41EBF3B70AD195962F438D64 /* PBXContainerItemProxy */;
+		};
+		6E59D6AFEFE0C03AE7D28B4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CCAAE2B5880A1648601B374 /* SortScape */;
+			targetProxy = 7A260923788E5B3BB2A9470D /* PBXContainerItemProxy */;
+		};
+		9545F5C57C6AA4F9DE74F8D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CCAAE2B5880A1648601B374 /* SortScape */;
+			targetProxy = 909654FFD6D768CD971F6818 /* PBXContainerItemProxy */;
+		};
+		A8D4794E8B51DC24F05BE6CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6E28BC0CB252577DD56B62E /* PuzzleCore */;
+			targetProxy = 9F1C4D46F59E0677A768790B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1857C4289B7816F9FAA4B0F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 2;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 933DTQ4A46;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Configuration/SortScape-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = SortScape;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sortscape.puzzleworlds;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		248EFDF3C9E08BDADCBF1777 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sortscape.PuzzleCore;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		4F9BDDBCFCE1048D903FCD29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sortscape.SortScapeUITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SortScape;
+			};
+			name = Release;
+		};
+		5BED41D042191752616FE241 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sortscape.SortScapeTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SortScape.app/SortScape";
+			};
+			name = Debug;
+		};
+		6A58E68148056C142240289E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E03E9E25506DCEC27BFC47C /* Release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		8920FF28568270FC00F386CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sortscape.PuzzleCoreTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9176F801E7C30C9C60EFCF6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sortscape.SortScapeTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SortScape.app/SortScape";
+			};
+			name = Release;
+		};
+		954A1811913B86269C8EFD11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CB3A3833FD392E064D12F10 /* Ads.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		B20D0E083F25E7F2C172E597 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sortscape.PuzzleCore;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		BEC83E3F135112741BDBD49A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 2;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 933DTQ4A46;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Configuration/SortScape-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = SortScape;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sortscape.puzzleworlds;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C16A37A41E123974C7220811 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sortscape.SortScapeUITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SortScape;
+			};
+			name = Debug;
+		};
+		F19510C3435D453FBE262128 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sortscape.PuzzleCoreTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24DB3E394B05F02D20738166 /* Build configuration list for PBXNativeTarget "PuzzleCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B20D0E083F25E7F2C172E597 /* Debug */,
+				248EFDF3C9E08BDADCBF1777 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3695C1DDEA3A8614BA565575 /* Build configuration list for PBXProject "SortScape" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				954A1811913B86269C8EFD11 /* Debug */,
+				6A58E68148056C142240289E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		38A6FAF6BE87D99BEF74C9F4 /* Build configuration list for PBXNativeTarget "PuzzleCoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8920FF28568270FC00F386CA /* Debug */,
+				F19510C3435D453FBE262128 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3CC27EF30BEC068BE4936DC2 /* Build configuration list for PBXNativeTarget "SortScapeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BED41D042191752616FE241 /* Debug */,
+				9176F801E7C30C9C60EFCF6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C21A4C73DDEBEFD02187A938 /* Build configuration list for PBXNativeTarget "SortScape" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1857C4289B7816F9FAA4B0F6 /* Debug */,
+				BEC83E3F135112741BDBD49A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CBB53F09D5857B4552955173 /* Build configuration list for PBXNativeTarget "SortScapeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C16A37A41E123974C7220811 /* Debug */,
+				4F9BDDBCFCE1048D903FCD29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		01C8887DCD0471FB058DD3E3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = exactVersion;
+				version = 13.1.0;
+			};
+		};
+		90DD1A2DC8124951FFFD671B /* XCRemoteSwiftPackageReference "swift-package-manager-google-user-messaging-platform" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googleads/swift-package-manager-google-user-messaging-platform.git";
+			requirement = {
+				kind = exactVersion;
+				version = 3.1.0;
+			};
+		};
+		9D89C8DC536FA0D6B44750F3 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googleads/swift-package-manager-google-mobile-ads.git";
+			requirement = {
+				kind = exactVersion;
+				version = 13.12.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4E217C3E231EFD166AEE4F65 /* GoogleUserMessagingPlatform */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 90DD1A2DC8124951FFFD671B /* XCRemoteSwiftPackageReference "swift-package-manager-google-user-messaging-platform" */;
+			productName = GoogleUserMessagingPlatform;
+		};
+		DAB7E769502DADDDFD3398FB /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 01C8887DCD0471FB058DD3E3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+		F38ED4B89AE3E686E1A953D7 /* FirebaseAnalyticsCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 01C8887DCD0471FB058DD3E3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsCore;
+		};
+		F7363FC3FF4A4A07FA913AD8 /* GoogleMobileAds */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9D89C8DC536FA0D6B44750F3 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */;
+			productName = GoogleMobileAds;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 53396715E451F43F28AFB3A6 /* Project object */;
+}

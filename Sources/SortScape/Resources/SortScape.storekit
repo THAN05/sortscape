@@ -1,0 +1,94 @@
+{
+  "identifier": "F48BE495-2961-4165-A752-458C56D53673",
+  "nonRenewingSubscriptions": [],
+  "products": [
+    {
+      "displayPrice": "3.99",
+      "familyShareable": false,
+      "internalID": "100000",
+      "localizations": [
+        {
+          "description": "Remove Ads for SortScape. Optional purchase.",
+          "displayName": "Remove Ads",
+          "locale": "en_US"
+        }
+      ],
+      "productID": "com.sortscape.placeholder.removeads",
+      "referenceName": "Remove Ads",
+      "type": "NonConsumable"
+    },
+    {
+      "displayPrice": "2.99",
+      "familyShareable": false,
+      "internalID": "100001",
+      "localizations": [
+        {
+          "description": "1,000 Coins for SortScape. Optional purchase.",
+          "displayName": "1,000 Coins",
+          "locale": "en_US"
+        }
+      ],
+      "productID": "com.sortscape.placeholder.coins1000",
+      "referenceName": "1,000 Coins",
+      "type": "Consumable"
+    },
+    {
+      "displayPrice": "1.99",
+      "familyShareable": false,
+      "internalID": "100002",
+      "localizations": [
+        {
+          "description": "10 Hints for SortScape. Optional purchase.",
+          "displayName": "10 Hints",
+          "locale": "en_US"
+        }
+      ],
+      "productID": "com.sortscape.placeholder.hints10",
+      "referenceName": "10 Hints",
+      "type": "Consumable"
+    },
+    {
+      "displayPrice": "5.99",
+      "familyShareable": false,
+      "internalID": "100003",
+      "localizations": [
+        {
+          "description": "Starter Bundle for SortScape. Optional purchase.",
+          "displayName": "Starter Bundle",
+          "locale": "en_US"
+        }
+      ],
+      "productID": "com.sortscape.placeholder.starter",
+      "referenceName": "Starter Bundle",
+      "type": "NonConsumable"
+    },
+    {
+      "displayPrice": "3.99",
+      "familyShareable": false,
+      "internalID": "100004",
+      "localizations": [
+        {
+          "description": "Premium Island Theme for SortScape. Optional purchase.",
+          "displayName": "Premium Island Theme",
+          "locale": "en_US"
+        }
+      ],
+      "productID": "com.sortscape.placeholder.moonlit",
+      "referenceName": "Premium Island Theme",
+      "type": "NonConsumable"
+    }
+  ],
+  "settings": {
+    "_applicationInternalID": "",
+    "_developerTeamID": "",
+    "_failTransactionsEnabled": false,
+    "_locale": "en_US",
+    "_storefront": "USA",
+    "_storeKitErrors": []
+  },
+  "subscriptionGroups": [],
+  "version": {
+    "major": 3,
+    "minor": 0
+  }
+}

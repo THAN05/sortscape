@@ -1,0 +1,9 @@
+// Google's official sample app. Never place production identifiers in source.
+ADMOB_APP_ID = ca-app-pub-3940256099942544~1458002511
+ADS_ENABLED = NO
+// Private deployment overrides are intentionally ignored by version control.
+#include? "Ads.local.xcconfig"
+
+TELEMETRY_ENVIRONMENT = Development
+TELEMETRY_ENVIRONMENT[config=Release] = Production
+#include? "Telemetry.local.xcconfig"
