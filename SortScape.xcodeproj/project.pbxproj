@@ -766,6 +766,7 @@
 				);
 				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sortscape.puzzleworlds;
+				SORTSCAPE_PRIVACY_POLICY_URL = "https://aperros.com/developer/apps/sortscape/privacy";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1027,6 +1028,7 @@
 				);
 				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sortscape.puzzleworlds;
+				SORTSCAPE_PRIVACY_POLICY_URL = "https://aperros.com/developer/apps/sortscape/privacy";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

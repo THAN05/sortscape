@@ -37,11 +37,13 @@ you can restore as you play.” For later versions describe only their actual ch
 
 ## URLs and review
 
-- Support URL: owner supplies a reachable public HTTPS page with a working
-  contact method, supported devices, troubleshooting, and progress/restore FAQ.
-- Privacy Policy URL: owner supplies a reachable public HTTPS policy. Use the
-  same approved URL in App Store Connect and the in-app Settings link via
-  `SORTSCAPE_PRIVACY_POLICY_URL`. No placeholder URL is included.
+- Support URL: `https://aperros.com/developer/apps/sortscape/support`
+- Privacy Policy URL: `https://aperros.com/developer/apps/sortscape/privacy`.
+  The same URL is set as `SORTSCAPE_PRIVACY_POLICY_URL` for the app target, so
+  Settings → Analytics and diagnostics → Privacy policy opens it.
+- Marketing URL: `https://aperros.com/developer/apps/sortscape`
+- The policy and support page are published from the aperros-website repo
+  (`content/apps.json`). Update the policy there before enabling ads or purchases.
 - Confirm title availability, category, locale, and final metadata in the account.
   No keywords imply medical benefits, rankings, or audience age. Do not claim
   a Kids Category designation or age rating before the questionnaire is complete.

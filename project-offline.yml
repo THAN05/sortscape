@@ -80,6 +80,7 @@ targets:
       base:
         DEBUG_INFORMATION_FORMAT: dwarf-with-dsym
         PRODUCT_BUNDLE_IDENTIFIER: com.sortscape.puzzleworlds
+        SORTSCAPE_PRIVACY_POLICY_URL: https://aperros.com/developer/apps/sortscape/privacy
         INFOPLIST_KEY_CFBundleDisplayName: SortScape
         ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
         GENERATE_INFOPLIST_FILE: YES
